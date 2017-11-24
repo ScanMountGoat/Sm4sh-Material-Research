@@ -1,0 +1,14 @@
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\FindString\FindString\bin\Debug\FindString.exe.config
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\FindString\FindString\bin\Debug\FindString.exe
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\FindString\FindString\bin\Debug\FindString.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\FindString\FindString\obj\Debug\FindString.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\FindString\FindString\obj\Debug\FindString.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\FindString\FindString\obj\Debug\FindString.exe
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\FindString\FindString\obj\Debug\FindString.pdb
+C:\Users\Jonathan\Documents\Github\Sm4sh-Material-Research\FindString\FindString\bin\Debug\FindString.exe.config
+C:\Users\Jonathan\Documents\Github\Sm4sh-Material-Research\FindString\FindString\bin\Debug\FindString.exe
+C:\Users\Jonathan\Documents\Github\Sm4sh-Material-Research\FindString\FindString\bin\Debug\FindString.pdb
+C:\Users\Jonathan\Documents\Github\Sm4sh-Material-Research\FindString\FindString\obj\Debug\FindString.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Documents\Github\Sm4sh-Material-Research\FindString\FindString\obj\Debug\FindString.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\Github\Sm4sh-Material-Research\FindString\FindString\obj\Debug\FindString.exe
+C:\Users\Jonathan\Documents\Github\Sm4sh-Material-Research\FindString\FindString\obj\Debug\FindString.pdb
