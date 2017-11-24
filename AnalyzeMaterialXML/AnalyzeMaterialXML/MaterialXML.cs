@@ -37,7 +37,9 @@ namespace AnalyzeMaterialXML
                                         switch (attribute.Name)
                                         {
                                             case "flags":
-                                                uint.TryParse(attribute.Value, NumberStyles.HexNumber, null, out matData.flags);
+                                                uint flags = 0;
+                                                uint.TryParse(attribute.Value, NumberStyles.HexNumber, null, out flags);
+                                                matData.setFlags(flags);
                                                 break;
                                         }
                                     }

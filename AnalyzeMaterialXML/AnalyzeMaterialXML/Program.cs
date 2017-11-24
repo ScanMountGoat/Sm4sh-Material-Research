@@ -51,13 +51,17 @@ namespace AnalyzeMaterialXML
                 }
             }
 
+
             uint necessaryFlags = 0xFFFFFFFF;
             foreach (MaterialData material in materials)
             {
-                if (material.materialProperties.ContainsKey(materialProperty))
+                bool containsSearchProperty = material.materialProperties.ContainsKey(materialProperty);
+                //containsSearchProperty = material.aomap;
+
+                if (containsSearchProperty)
                 {
                     //PrintFlags(material.flags);
-                    necessaryFlags = necessaryFlags & material.flags;
+                    necessaryFlags = necessaryFlags & material.getFlags();
                     PrintFlags(necessaryFlags);
                 }
 
