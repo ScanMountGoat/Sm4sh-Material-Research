@@ -1,6 +1,7 @@
 # Complete
 The material properties in this list are well researched and are integrated into
-Forge's NUD rendering.
+Forge's NUD rendering.  
+*Unused*: the in game value is always 0.
 
 * NU_fresnelColor  
     * Red
@@ -111,12 +112,14 @@ Forge's NUD rendering.
 # Partially Researched
 The material properties in this list have unresearched params, or how the
 different params work is not well understood. Forge will render most of these
-values.
+values.  
+*Unused*: the in game value is always 0.
+
 * NU_normalParams
     * Normal Map Intensity
-    * ???
+    * *Unused*
     * DuDv Intensity
-    * ???
+    * *Unused*
 * NU_fresnelParams
     * Exponent
     * ???
@@ -126,12 +129,12 @@ values.
     * ???
     * Exponent
     * ???
-    * ???
+    * *Unused*
 * NU_angleFadeParams
     * Blend Amount at 0 Degrees
     * Blend Amount at 90 Degrees
-    * ???
-    * ???
+    * *Unused*
+    * *Unused*
 * NU_alphaBlendParams
     * Alpha Offset
     * ???
@@ -143,31 +146,102 @@ values.
     * Blue
     * ???
 * NU_zOffset
+    * Z Offset
+    * *Unused*
+    * *Unused*
+    * *Unused*
+* NU_blinkColor
+    * *Unused*
+    * *Unused*    
+    * *Unused*
+    * *Unused*
 * NU_dualNormalScrollParams
-
+    * ???
+    * ???
+    * ???
+    * ???
 
 # Not Researched
-* NU_blinkColor
 * NU_effRotUV
 * NU_effScaleUV
+    * ???
+    * ???
+    * *Unused*
+    * *Unused*
 * NU_effTransUV
+    * ???
+    * ???
+    * *Unused*
+    * *Unused*
 * NU_effMaxUV
 * NU_effOffsetUV
+    * ???
+    * ???
+    * ???
+    * ???
 * NU_effSilhouetteColor
+    * ???
+    * ???
+    * ???
+    * *Unused*
 * NU_effCombinerColor0
+    * ???
+    * ???
+    * ???
+    * *Unused*
 * NU_effCombinerColor1
+    * ???
+    * ???
+    * ???
+    * *Unused*
 * NU_effUniverseParam
+    * ???
+    * *Unused*    
+    * *Unused*
+    * *Unused*
 * NU_effYGradParam
 * NU_effYGradColorBottom
+    * ???
+    * ???
+    * ???
+    * *Unused*
 * NU_effYGradColorTop
+    * ???
+    * ???
+    * ???
+    * *Unused*
 * NU_characterColor
+    * ???
+    * ???
+    * ???
+    * *Unused*
 * NU_postEffectReflection
+    * ???
+    * *Unused*    
+    * *Unused*
+    * *Unused*
 * NU_lightMapColorOffset
+    * ???
+    * ???
+    * ???
+    * *Unused*
 * NU_fogColor
+    * ???
+    * ???
+    * ???
+    * ???
 * NU_colorStepUV
+    * ???
+    * ???
+    * ???
+    * ???
 * NU_rotatePivotUV
+    * ???
+    * *Unused*
+    * ???
+    * ???
 
-# Unused?
+# Unused Properties
 No in game model has been found using these material properties. It's probably
 still possible to use them. The results are from searching the fighter,
 stage/melee, and model/figure folders. Effect models will be searched later.

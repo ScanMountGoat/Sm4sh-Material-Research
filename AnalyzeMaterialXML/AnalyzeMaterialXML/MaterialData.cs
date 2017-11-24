@@ -23,6 +23,7 @@ namespace AnalyzeMaterialXML
         }
 
         private uint flags;
+        public string fileName = "";
 
         public bool spheremap;
         public bool aomap;

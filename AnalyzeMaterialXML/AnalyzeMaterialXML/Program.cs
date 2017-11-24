@@ -13,6 +13,11 @@ namespace AnalyzeMaterialXML
     {
         public static List<MaterialData> materials = new List<MaterialData>();
 
+        private static float param1Max = 0;
+        private static float param2Max = 0;
+        private static float param3Max = 0;
+        private static float param4Max = 0;
+
         private static void PrintFlags(uint flags)
         {
             string flagsHex = flags.ToString("X");
@@ -22,7 +27,6 @@ namespace AnalyzeMaterialXML
                 if ((i + 1) % 2 == 0)
                     Console.Write(" ");
             }
-            Console.WriteLine();
         }
 
         static void Main(string[] args)
@@ -56,19 +60,43 @@ namespace AnalyzeMaterialXML
             foreach (MaterialData material in materials)
             {
                 bool containsSearchProperty = material.materialProperties.ContainsKey(materialProperty);
-                //containsSearchProperty = material.spheremap;
 
                 if (containsSearchProperty)
                 {
-                    PrintFlags(material.getFlags());
+                    //PrintFlags(material.getFlags());
                     necessaryFlags = necessaryFlags & material.getFlags();
-                    //PrintFlags(necessaryFlags);
+
+                    PrintMaterialPropertyValues(materialProperty, material);
+
+
+
+                    //Console.Write(" " + material.fileName);
+                    Console.WriteLine();
                 }
             }
 
             Console.WriteLine();
             Console.WriteLine(materialProperty + " flags:");
             PrintFlags(necessaryFlags);
+
+            Console.WriteLine();
+            Console.WriteLine("Maximum Values");
+            Console.Write("{0,10} {1,10} {2,10} {3,10}", param1Max, param2Max, param3Max, param4Max);
+        }
+
+        private static void PrintMaterialPropertyValues(string materialProperty, MaterialData material)
+        {
+            if (material.materialProperties.ContainsKey(materialProperty))
+            {
+                float[] values = material.materialProperties[materialProperty];
+
+                param1Max = Math.Max(param1Max, values[0]);
+                param2Max = Math.Max(param2Max, values[1]);
+                param3Max = Math.Max(param3Max, values[2]);
+                param4Max = Math.Max(param4Max, values[3]);
+
+                Console.Write("{0,19} {1,10} {2,10} {3,10}", values[0], values[1], values[2], values[3]);
+            }
         }
     }
 }

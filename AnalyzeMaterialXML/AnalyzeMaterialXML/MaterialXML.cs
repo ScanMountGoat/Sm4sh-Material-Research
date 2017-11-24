@@ -10,10 +10,10 @@ namespace AnalyzeMaterialXML
 {
     class MaterialXML
     {
-        public static void MaterialDataFromXML(string filename)
+        public static void MaterialDataFromXML(string fileName)
         {
             XmlDocument xmlFile = new XmlDocument();
-            xmlFile.Load(filename);
+            xmlFile.Load(fileName);
 
             XmlNode main = xmlFile.ChildNodes[0];
 
@@ -31,6 +31,7 @@ namespace AnalyzeMaterialXML
                                 {
                                     MaterialData matData = new MaterialData();
                                     Program.materials.Add(matData);
+                                    matData.fileName = fileName;
 
                                     foreach (XmlAttribute attribute in materialNode.Attributes)
                                     {
