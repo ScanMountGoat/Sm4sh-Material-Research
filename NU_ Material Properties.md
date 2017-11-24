@@ -3,44 +3,156 @@ The material properties in this list are well researched and are integrated into
 Forge's NUD rendering.
 
 * NU_fresnelColor  
+    * Red
+    * green
+    * Blue
+    * Color Blend
 * NU_reflectionColor  
+    * Red
+    * green
+    * Blue
+    * Color Blend
 * NU_specularColor  
+    * Red
+    * green
+    * Blue
+    * Color Blend
 * NU_colorSampler2UV
+    * Scale U
+    * Scale V
+    * Translate U
+    * Translate V
 * NU_colorSampler3UV
+    * Scale U
+    * Scale V
+    * Translate U
+    * Translate V
 * NU_colorSampler4UV
+    * Scale U
+    * Scale V
+    * Translate U
+    * Translate V
 * NU_aoMinGain
+    * Red
+    * green
+    * Blue
+    * AO Mix Factor
 * NU_colorGain
+    * Red
+    * green
+    * Blue
+    * *Unused*
 * NU_colorOffset
+    * Red
+    * green
+    * Blue
+    * *Unused*
 * NU_customSoftLightParams
+    * Ambient Saturation
+    * Darken Ambient
+    * Smooth Amount  
+    * *Unused*
 * NU_softLightingParams
+    * Ambient Saturation
+    * Darken Ambient
+    * Smooth Amount  
+    * *Unused*
 * NU_specularColorGain
-* NU_normalParams
+    * Red
+    * green
+    * Blue
+    * *Unused*
+* NU_reflectionParams
+    * Cubemap Intensity
+    * *Unused*
+    * Anisotropic Width
+    * Anisotropic Height
+* NU_effColorGain
+    * Red
+    * green
+    * Blue
+    * Alpha
 * NU_finalColorGain
+    * Red
+    * green
+    * Blue
+    * Alpha
 * NU_finalColorGain2
+    * Red
+    * green
+    * Blue
+    * Alpha
 * NU_finalColorGain3
+    * Red
+    * green
+    * Blue
+    * Alpha
+* NU_normalSamplerAUV
+    * Scale U
+    * Scale V
+    * Translate U
+    * Translate V
+* NU_normalSamplerBUV
+    * Scale U
+    * Scale V
+    * Translate U
+    * Translate V
+* NU_fogParams
+    * Minimum Distance
+    * Maximum Distance
+    * Minimum Intensity
+    * Maximum Intensity
+* NU_materialHash
+    * Hash
+    * *Unused*
+    * *Unused*
+    * *Unused*
 
 # Partially Researched
 The material properties in this list have unresearched params, or how the
 different params work is not well understood. Forge will render most of these
 values.
-
+* NU_normalParams
+    * Normal Map Intensity
+    * ???
+    * DuDv Intensity
+    * ???
 * NU_fresnelParams
+    * Exponent
+    * ???
+    * ???
+    * ???
 * NU_specularParams
+    * ???
+    * Exponent
+    * ???
+    * ???
 * NU_angleFadeParams
-* NU_reflectionParams
+    * Blend Amount at 0 Degrees
+    * Blend Amount at 90 Degrees
+    * ???
+    * ???
 * NU_alphaBlendParams
-* NU_zOffset
-* NU_fogParams
+    * Alpha Offset
+    * ???
+    * ???
+    * ???
 * NU_diffuseColor
-* NU_normalSamplerAUV
-* NU_normalSamplerBUV
+    * Red
+    * green
+    * Blue
+    * ???
+* NU_zOffset
 * NU_dualNormalScrollParams
-* NU_effColorGain
+
 
 # Not Researched
+* NU_blinkColor
 * NU_effRotUV
 * NU_effScaleUV
 * NU_effTransUV
+* NU_effMaxUV
+* NU_effOffsetUV
 * NU_effSilhouetteColor
 * NU_effCombinerColor0
 * NU_effCombinerColor1
@@ -54,7 +166,6 @@ values.
 * NU_fogColor
 * NU_colorStepUV
 * NU_rotatePivotUV
-
 
 # Unused?
 No in game model has been found using these material properties. It's probably
