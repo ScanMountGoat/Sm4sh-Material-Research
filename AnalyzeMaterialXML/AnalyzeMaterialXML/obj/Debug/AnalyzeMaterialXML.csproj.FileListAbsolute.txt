@@ -1,7 +1,0 @@
-C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\AnalyzeMaterialXML\AnalyzeMaterialXML\bin\Debug\AnalyzeMaterialXML.exe.config
-C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\AnalyzeMaterialXML\AnalyzeMaterialXML\bin\Debug\AnalyzeMaterialXML.exe
-C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\AnalyzeMaterialXML\AnalyzeMaterialXML\bin\Debug\AnalyzeMaterialXML.pdb
-C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\AnalyzeMaterialXML\AnalyzeMaterialXML\obj\Debug\AnalyzeMaterialXML.csprojResolveAssemblyReference.cache
-C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\AnalyzeMaterialXML\AnalyzeMaterialXML\obj\Debug\AnalyzeMaterialXML.csproj.CoreCompileInputs.cache
-C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\AnalyzeMaterialXML\AnalyzeMaterialXML\obj\Debug\AnalyzeMaterialXML.exe
-C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\AnalyzeMaterialXML\AnalyzeMaterialXML\obj\Debug\AnalyzeMaterialXML.pdb
