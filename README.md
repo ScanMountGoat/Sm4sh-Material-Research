@@ -10,4 +10,4 @@ A basic command line application for printing the file paths of all files that c
 `FindString.exe path string extension`   
 
 ## Analyze Material XML
-A command line application for processing multiple material XML files exported from Smash Forge. The XML importing code draws heavily from the code used by Smash Forge for converting an XML file to NUD materials. The license for Smash Forge can be found here. 
+A command line application for processing multiple material XML files exported from Smash Forge. The XML importing code draws heavily from the code used by Smash Forge for converting an XML file to NUD materials. The license for Smash Forge can be found [here](https://github.com/jam1garner/Smash-Forge/blob/master/License.txt). 
