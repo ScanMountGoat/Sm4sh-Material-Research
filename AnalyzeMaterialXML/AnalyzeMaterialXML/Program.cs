@@ -56,15 +56,14 @@ namespace AnalyzeMaterialXML
             foreach (MaterialData material in materials)
             {
                 bool containsSearchProperty = material.materialProperties.ContainsKey(materialProperty);
-                //containsSearchProperty = material.aomap;
+                //containsSearchProperty = material.spheremap;
 
                 if (containsSearchProperty)
                 {
-                    //PrintFlags(material.flags);
+                    PrintFlags(material.getFlags());
                     necessaryFlags = necessaryFlags & material.getFlags();
-                    PrintFlags(necessaryFlags);
+                    //PrintFlags(necessaryFlags);
                 }
-
             }
 
             Console.WriteLine();
