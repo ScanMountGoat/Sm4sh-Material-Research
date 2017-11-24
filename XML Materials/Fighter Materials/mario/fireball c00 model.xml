@@ -1,0 +1,16 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="group1">
+    <polygon id="0">
+      <material flags="b0201100" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="0" zbuffoff="0">
+        <texture hash="40115801" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effColorGain">1 1 1 1 </param>
+        <param name="NU_effScaleUV">1 1 0 0 </param>
+        <param name="NU_effRotUV">0 0 0 0 </param>
+        <param name="NU_effTransUV">0 0 0 0 </param>
+        <param name="NU_effMaxUV">1 1 0 0 </param>
+        <param name="NU_effOffsetUV">0.5 0.5 0.5 0.5 </param>
+        <param name="NU_materialHash">b709741b 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

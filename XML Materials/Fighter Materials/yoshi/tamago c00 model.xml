@@ -1,0 +1,23 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="TamagoM7Shape">
+    <polygon id="0">
+      <material flags="9a011063" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="402c4800" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="402c4801" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="2" />
+        <texture hash="10100000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_normalSamplerUV">1 1 0 0 </param>
+        <param name="NU_lightMapColorOffset">0 0 0 0 </param>
+        <param name="NU_specularParams">2 1.94 0 0 </param>
+        <param name="NU_envDiffuseColor">1 1 1 0 </param>
+        <param name="NU_fresnelParams">1.4 0 0 1 </param>
+        <param name="NU_fresnelColor">0.8059735 0.8118868 0.7388113 1 </param>
+        <param name="NU_specularColor">0.6881941 0.7029679 0.6474403 1.5 </param>
+        <param name="NU_aoMinGain">0.4455445 0.4158868 0.3831578 0 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">9c718ada 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

@@ -1,0 +1,24 @@
+<NUDMATERIAL polycount="2">
+  <mesh name="bird_VIS_O_OBJ_O_OBJ_O_NOSORT_NEAR">
+    <polygon id="0">
+      <material flags="d2c01101" srcFactor="0" dstFactor="0" AlphaFunc="6" AlphaTest="2" RefAlpha="128" cullmode="0" zbuffoff="0">
+        <texture hash="40049009" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="1" mipdetail="3" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_finalColorGain">1 1 1 1 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">2128de51 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="1">
+      <material flags="d2c01101" srcFactor="0" dstFactor="0" AlphaFunc="6" AlphaTest="2" RefAlpha="128" cullmode="0" zbuffoff="0">
+        <texture hash="40049009" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="1" mipdetail="3" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_finalColorGain">1 1 1 1 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">d538ca3b 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>
