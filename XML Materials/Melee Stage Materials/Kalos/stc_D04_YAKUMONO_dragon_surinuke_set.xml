@@ -1,0 +1,60 @@
+<NUDMATERIAL polycount="6">
+  <mesh name="LR_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="a2001901" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000045" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0.5 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">f6360fd2 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="1">
+      <material flags="a2011041" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000017" wrapmodeS="1" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fogParams">0 4000 0 1 </param>
+        <param name="NU_fogColor">0.156 0.168 0.26 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">5831b63f 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="2">
+      <material flags="a6101045" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000003a" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="20000046" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_reflectionParams">0.8 0 0 0 </param>
+        <param name="NU_diffuseColor">0.8 0.8 0.8 1 </param>
+        <param name="NU_materialHash">100c5829 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="3">
+      <material flags="a6101045" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000004" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="20000046" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_reflectionParams">6 0 0 0 0 </param>
+        <param name="NU_diffuseColor">0.4615385 0.4615385 0.4615385 1 0 </param>
+        <param name="NU_materialHash">6dfd0af8 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="4">
+      <material flags="a2001981" srcFactor="1" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000045" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0.5 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">940369a8 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="5">
+      <material flags="a61010c5" srcFactor="1" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="0" zbuffoff="0">
+        <texture hash="20000001" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="20000046" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_reflectionParams">1 0 0 0 </param>
+        <param name="NU_diffuseColor">0.8 0.8 0.8 1 </param>
+        <param name="NU_materialHash">675ea03a 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

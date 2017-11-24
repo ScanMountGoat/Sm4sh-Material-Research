@@ -1,0 +1,10 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="ShadowOnly">
+    <polygon id="0">
+      <material flags="a0001040" srcFactor="1" dstFactor="4" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="-1048168516">
+        <texture hash="200000ed" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_materialHash">f2ddad27 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

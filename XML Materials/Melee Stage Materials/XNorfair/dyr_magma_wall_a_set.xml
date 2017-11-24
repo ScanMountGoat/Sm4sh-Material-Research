@@ -1,0 +1,36 @@
+<NUDMATERIAL polycount="3">
+  <mesh name="magma_wall_a_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="ab809901" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000056" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="20000057" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="20000058" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0.4 0.3 </param>
+        <param name="NU_colorSampler2UV">1 1 0 0.2 </param>
+        <param name="NU_colorSampler3UV">1 1 -0.2 0 </param>
+        <param name="NU_diffuseColor">1 0.5269001 0.253 1 </param>
+        <param name="NU_materialHash">94cde11 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="magma_smoke_O_OBJ_O_SORTBIAS0_">
+    <polygon id="1">
+      <material flags="a2001981" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="0" zbuffoff="0">
+        <texture hash="20000054" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 -0.5 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">468d8cc2 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="2">
+      <material flags="a3805981" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000062" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="20000062" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 -0.1 1.4 </param>
+        <param name="NU_colorSampler2UV">1 1 0.1 1.2 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">65522fcc 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

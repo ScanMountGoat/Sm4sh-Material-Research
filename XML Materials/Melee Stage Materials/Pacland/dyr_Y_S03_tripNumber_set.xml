@@ -1,0 +1,12 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="tripNumber_base_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000005c" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="1" mipdetail="1" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">f747d1e5 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

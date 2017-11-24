@@ -1,0 +1,26 @@
+<NUDMATERIAL polycount="2">
+  <mesh name="group167_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="a2131045" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000169" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="2000016c" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_reflectionParams">0.7 0 0 0 </param>
+        <param name="NU_fogParams">0 2300 0.1 0.8 </param>
+        <param name="NU_fresnelColor">1 1 0.483 0 </param>
+        <param name="NU_fresnelParams">1 0 0 0 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_diffuseColor">1.8 1.70046 1.5156 1 </param>
+        <param name="NU_materialHash">d0cdd4a0 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="1">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000210" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">30491bf6 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

@@ -1,0 +1,62 @@
+<NUDMATERIAL polycount="5">
+  <mesh name="village_C_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="a4011041" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="128" cullmode="405" zbuffoff="0">
+        <texture hash="200003a6" wrapmodeS="2" wrapmodeT="2" minfilter="2" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fogParams">30 500 0 0 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">ab2c50e 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="village_L_O_OBJ_O_HIR">
+    <polygon id="1">
+      <material flags="a4011041" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="128" cullmode="405" zbuffoff="0">
+        <texture hash="200003a7" wrapmodeS="2" wrapmodeT="2" minfilter="2" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fogParams">30 500 0 0 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">1aa8850a 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="village_R_O_OBJ_O_HIR">
+    <polygon id="2">
+      <material flags="a4011041" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="128" cullmode="405" zbuffoff="0">
+        <texture hash="200003a8" wrapmodeS="2" wrapmodeT="2" minfilter="2" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fogParams">30 500 0 0 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">dfaf56e1 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="city_L_O_OBJ_O_HIR">
+    <polygon id="3">
+      <material flags="a4011041" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="128" cullmode="405" zbuffoff="0">
+        <texture hash="200003a4" wrapmodeS="2" wrapmodeT="2" minfilter="2" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fogParams">30 500 0 0 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">18e1c73d 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="city_R_O_OBJ_O_HIR">
+    <polygon id="4">
+      <material flags="a4011041" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="128" cullmode="405" zbuffoff="0">
+        <texture hash="200003a5" wrapmodeS="2" wrapmodeT="2" minfilter="2" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fogParams">30 500 0 0 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">ffd3bdeb 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

@@ -1,0 +1,62 @@
+<NUDMATERIAL polycount="6">
+  <mesh name="Pillarnormal__O_OBJ">
+    <polygon id="0">
+      <material flags="a4001001" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000036" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_materialHash">9253d3f8 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="Pillarbrake00__O_OBJ_O_HIR">
+    <polygon id="1">
+      <material flags="a4001001" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000036" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_materialHash">9253d3f8 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="Pillarbrake01__O_OBJ_O_HIR">
+    <polygon id="2">
+      <material flags="a4001001" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000036" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_materialHash">9253d3f8 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="Pillarbrake02__O_OBJ_O_HIR">
+    <polygon id="3">
+      <material flags="a4001001" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000036" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_materialHash">9253d3f8 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="Pillarbrake03__O_OBJ_O_HIR">
+    <polygon id="4">
+      <material flags="a4001001" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000036" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_materialHash">9253d3f8 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="Pillarbrake04__O_OBJ_O_HIR">
+    <polygon id="5">
+      <material flags="a4001001" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000036" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_materialHash">9253d3f8 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

@@ -1,0 +1,38 @@
+<NUDMATERIAL polycount="3">
+  <mesh name="bg_ken_O_OBJ_O_SORTBIAS0_">
+    <polygon id="0">
+      <material flags="a2011001" srcFactor="1" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000005f" wrapmodeS="3" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fogParams">0 7000 0 1 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_materialHash">dc24578d 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="cloudShdowGrp_O_OBJ_O_SORTBIAS0_">
+    <polygon id="1">
+      <material flags="a2011901" srcFactor="1" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000066" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0.005 0 </param>
+        <param name="NU_fogParams">0 2500 0.05 1 </param>
+        <param name="NU_fogColor">0.174 0.807 1 0 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_materialHash">9b3d3c45 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="treeShadowGrp01_O_OBJ_O_SORTBIAS0_">
+    <polygon id="2">
+      <material flags="a2011001" srcFactor="1" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000006e" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fogParams">0 2500 0 1 </param>
+        <param name="NU_diffuseColor">0 0 0 0 </param>
+        <param name="NU_fogColor">0.438 0.8875999 1 0 </param>
+        <param name="NU_materialHash">d7ea27a3 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

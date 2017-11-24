@@ -1,0 +1,32 @@
+<NUDMATERIAL polycount="4">
+  <mesh name="Warning01_O_OBJ_O_NOSORT">
+    <polygon id="0">
+      <material flags="b0201000" srcFactor="3" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000222" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effColorGain">1 1 1 1 </param>
+        <param name="NU_materialHash">948b9a9f 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="1">
+      <material flags="b0201000" srcFactor="3" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000223" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effColorGain">1 1 1 0.7 </param>
+        <param name="NU_materialHash">223e14e6 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="2">
+      <material flags="b0201000" srcFactor="3" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000223" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effColorGain">1 1 1 1 </param>
+        <param name="NU_materialHash">8b1f3a5f 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="3">
+      <material flags="b0201000" srcFactor="3" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000025c" wrapmodeS="3" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effColorGain">1 1 1 0.5 </param>
+        <param name="NU_materialHash">2f7d323f 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

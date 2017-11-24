@@ -1,0 +1,17 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="sora_kumo_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="a2013b03" srcFactor="1" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000012" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="20000013" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_normalSamplerAUV">1 1 0 -0.2 </param>
+        <param name="NU_fogParams">0 100000 0 1 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_normalParams">1 0 0.04 0 </param>
+        <param name="NU_materialHash">ebf7da96 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

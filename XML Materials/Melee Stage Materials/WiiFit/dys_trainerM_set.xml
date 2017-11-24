@@ -1,0 +1,14 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="dys_trainerM_O_OBJ_O_NOSORT">
+    <polygon id="0">
+      <material flags="b0c01000" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="-1005400842">
+        <texture hash="2000007f" wrapmodeS="1" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effYGradParam">0 55 0 0 </param>
+        <param name="NU_effYGradColorBottom">0.748 0.911 0.635 0 </param>
+        <param name="NU_effYGradColorTop">0.173 0.519 0.066 0 </param>
+        <param name="NU_effColorGain">0 0 0 0 </param>
+        <param name="NU_materialHash">2b75b20a 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

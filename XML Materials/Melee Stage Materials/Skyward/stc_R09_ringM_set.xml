@@ -1,0 +1,17 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="R09_ringM">
+    <polygon id="0">
+      <material flags="e2413a03" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="128" cullmode="0" zbuffoff="0">
+        <texture hash="200000a8" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="200001ff" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_normalSamplerAUV">1 1 -0.3 0 </param>
+        <param name="NU_fogParams">0 4500 0 0.25 </param>
+        <param name="NU_fogColor">1 0.99 0.95 0 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_normalParams">1 0 0.05 0 </param>
+        <param name="NU_materialHash">3898eb42 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

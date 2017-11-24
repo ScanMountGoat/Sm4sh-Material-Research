@@ -1,0 +1,13 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="dummy02">
+    <polygon id="0">
+      <material flags="a2011000" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="1126679979">
+        <texture hash="20000093" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_fogParams">0 100 0 1 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">b4816c44 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

@@ -1,0 +1,104 @@
+<NUDMATERIAL polycount="11">
+  <mesh name="GPlantR_BILLBOARDYAXIS__O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="150" cullmode="405" zbuffoff="0">
+        <texture hash="2000004a" wrapmodeS="2" wrapmodeT="1" minfilter="2" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">90b3c966 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="GPlantL_BILLBOARDYAXIS__O_OBJ_O_HIR">
+    <polygon id="1">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="150" cullmode="405" zbuffoff="0">
+        <texture hash="2000004a" wrapmodeS="2" wrapmodeT="1" minfilter="2" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">90b3c966 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="SideBarrel_BILLBOARDYAXIS__O_OBJ_O_HIR">
+    <polygon id="2">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="135" cullmode="405" zbuffoff="0">
+        <texture hash="20000047" wrapmodeS="2" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">2d385c25 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="BPlant_BILLBOARDYAXIS__O_OBJ_O_HIR">
+    <polygon id="3">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="80" cullmode="405" zbuffoff="0">
+        <texture hash="20000048" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">a5799f8f 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="GPlantC_BILLBOARDYAXIS__O_OBJ_O_HIR">
+    <polygon id="4">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="150" cullmode="405" zbuffoff="0">
+        <texture hash="2000004a" wrapmodeS="2" wrapmodeT="1" minfilter="2" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">90b3c966 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="BigTree01_BILLBOARDYAXIS__O_OBJ_O_HIR">
+    <polygon id="5">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000051" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">562cffd5 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="6">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="200" cullmode="405" zbuffoff="0">
+        <texture hash="20000054" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">9c752343 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="7">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="150" cullmode="405" zbuffoff="0">
+        <texture hash="20000053" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">96b1b875 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="BigTree02_BILLBOARDYAXIS__O_OBJ_O_HIR">
+    <polygon id="8">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000051" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">562cffd5 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="9">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="200" cullmode="405" zbuffoff="0">
+        <texture hash="20000054" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">9c752343 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="10">
+      <material flags="a2001001" srcFactor="0" dstFactor="0" AlphaFunc="4" AlphaTest="2" RefAlpha="150" cullmode="405" zbuffoff="0">
+        <texture hash="20000053" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">96b1b875 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

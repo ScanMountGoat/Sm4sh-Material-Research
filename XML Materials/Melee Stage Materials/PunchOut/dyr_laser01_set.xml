@@ -1,0 +1,72 @@
+<NUDMATERIAL polycount="7">
+  <mesh name="laser09_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="e2041001" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000140" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">3ee1c5ad 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="Light_O_OBJ">
+    <polygon id="1">
+      <material flags="e2041001" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000111" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">be7a00ea 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="laser06_O_OBJ_O_HIR">
+    <polygon id="2">
+      <material flags="e2041001" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000140" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">3ee1c5ad 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="laser07_O_OBJ_O_HIR">
+    <polygon id="3">
+      <material flags="e2041001" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000140" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">3ee1c5ad 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="laser08_O_OBJ_O_HIR">
+    <polygon id="4">
+      <material flags="e2041001" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000140" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">3ee1c5ad 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="laser05_O_OBJ_O_HIR">
+    <polygon id="5">
+      <material flags="e2041001" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000140" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">3ee1c5ad 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="laserSpread2_O_OBJ_O_HIR">
+    <polygon id="6">
+      <material flags="e2041001" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000140" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">3ee1c5ad 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

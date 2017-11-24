@@ -1,0 +1,11 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="white_O_OBJ_O_SORTBIAS100_">
+    <polygon id="0">
+      <material flags="b0201000" srcFactor="1" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000136" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effColorGain">0.85 0.85 0.85 0.2587242 </param>
+        <param name="NU_materialHash">7c379a84 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

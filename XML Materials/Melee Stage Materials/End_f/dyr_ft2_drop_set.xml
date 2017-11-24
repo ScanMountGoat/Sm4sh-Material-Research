@@ -1,0 +1,50 @@
+<NUDMATERIAL polycount="3">
+  <mesh name="locator1_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="a2211406" srcFactor="1" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="200000c8" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="200000cc" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_normalSamplerAUV">1 1 -0.125 -0.125 </param>
+        <param name="NU_fogParams">0 8000 0 1 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_reflectionParams">1.2 0 0 0 </param>
+        <param name="NU_diffuseColor">0.1531858 0.2724475 0.2962963 1 </param>
+        <param name="NU_normalParams">1 0 0.01 0 </param>
+        <param name="NU_dualNormalScrollParams">0.123 0.321 1 1 </param>
+        <param name="NU_materialHash">99de48fb 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="locator1_O_OBJ_O_HIR1">
+    <polygon id="1">
+      <material flags="a2211406" srcFactor="1" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="200000c8" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="200000cc" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_normalSamplerAUV">1 1 -0.125 -0.125 </param>
+        <param name="NU_fogParams">0 8000 0 1 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_reflectionParams">1.2 0 0 0 </param>
+        <param name="NU_diffuseColor">0.1531858 0.2724475 0.2962963 1 </param>
+        <param name="NU_normalParams">1 0 0.01 0 </param>
+        <param name="NU_dualNormalScrollParams">0.123 0.321 1 1 </param>
+        <param name="NU_materialHash">99de48fb 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="locator1_O_OBJ_O_HIR2">
+    <polygon id="2">
+      <material flags="a2211406" srcFactor="1" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="200000c8" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="200000cc" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_normalSamplerAUV">1 1 -0.125 -0.125 </param>
+        <param name="NU_fogParams">0 8000 0 1 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_reflectionParams">1.2 0 0 0 </param>
+        <param name="NU_diffuseColor">0.1531858 0.2724475 0.2962963 1 </param>
+        <param name="NU_normalParams">1 0 0.01 0 </param>
+        <param name="NU_dualNormalScrollParams">0.123 0.321 1 1 </param>
+        <param name="NU_materialHash">99de48fb 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

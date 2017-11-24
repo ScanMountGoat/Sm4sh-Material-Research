@@ -1,0 +1,34 @@
+<NUDMATERIAL polycount="3">
+  <mesh name="hikari_suzi_O_OBJ">
+    <polygon id="0">
+      <material flags="a2001181" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000019" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">7b4227c9 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="hikari_suzi_Dummy_O_OBJ">
+    <polygon id="1">
+      <material flags="a2011001" srcFactor="5" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000001a" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fogParams">0 6000 0.1 0.3 </param>
+        <param name="NU_diffuseColor">1 1 1 0 </param>
+        <param name="NU_fogColor">0.55 0.254 0.083 0 </param>
+        <param name="NU_materialHash">5c985d88 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="group7_O_OBJ">
+    <polygon id="2">
+      <material flags="a2201981" srcFactor="1" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000015" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 -0.1 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">c74c5ca5 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

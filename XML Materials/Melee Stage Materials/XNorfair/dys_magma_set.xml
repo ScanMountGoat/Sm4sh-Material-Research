@@ -1,0 +1,18 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="magma">
+    <polygon id="0">
+      <material flags="ab819901" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000060" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="20000057" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="20000061" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -0.2 </param>
+        <param name="NU_colorSampler2UV">1 1 0.05 0 </param>
+        <param name="NU_colorSampler3UV">1 1 -0.075 0.05 </param>
+        <param name="NU_fogParams">1000 1700 0 1 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_diffuseColor">1 0.733 0.733 1 </param>
+        <param name="NU_materialHash">a1496d13 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

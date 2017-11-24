@@ -1,0 +1,26 @@
+<NUDMATERIAL polycount="2">
+  <mesh name="ex_dust03_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="b0201100" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000169" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effRotUV">0 0 0 0 </param>
+        <param name="NU_effScaleUV">1 1 0 0 </param>
+        <param name="NU_effTransUV">48.56334 0 0 0 </param>
+        <param name="NU_effColorGain">1 1 1 0.3272248 </param>
+        <param name="NU_materialHash">a6ae6f9a 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="ex_dust04_O_OBJ">
+    <polygon id="1">
+      <material flags="b0201100" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000169" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effRotUV">0 0 0 0 </param>
+        <param name="NU_effScaleUV">1 1 0 0 </param>
+        <param name="NU_effTransUV">48.56334 0 0 0 </param>
+        <param name="NU_effColorGain">1 1 1 0.3272248 </param>
+        <param name="NU_materialHash">a6ae6f9a 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

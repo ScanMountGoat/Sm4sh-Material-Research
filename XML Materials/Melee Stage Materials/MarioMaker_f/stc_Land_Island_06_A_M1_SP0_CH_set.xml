@@ -1,0 +1,12 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="Land_Island_07_A_M1_12_O_OBJ_O_SORTBIASm1600_">
+    <polygon id="0">
+      <material flags="a2201001" srcFactor="1" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000024" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">9911e1d8 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

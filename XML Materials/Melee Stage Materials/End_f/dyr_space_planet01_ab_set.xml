@@ -1,0 +1,40 @@
+<NUDMATERIAL polycount="4">
+  <mesh name="space_planet01_ab_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="a3c01981" srcFactor="1" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000003f" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 -0.03 0 </param>
+        <param name="NU_finalColorGain">1 1 1 0.7 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">9c1f8567 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="1">
+      <material flags="a3c01981" srcFactor="1" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000003e" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 -0.05 0 </param>
+        <param name="NU_finalColorGain">1 1 1 0.7 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">a41273b3 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="2">
+      <material flags="b0201000" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000003d" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effColorGain">1 1 1 1 </param>
+        <param name="NU_materialHash">c6297435 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="pPlane32_O_OBJ_O_HIR1">
+    <polygon id="3">
+      <material flags="a3c01081" srcFactor="1" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="20000041" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_finalColorGain">1 1 1 0.08100277 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">9032184c 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

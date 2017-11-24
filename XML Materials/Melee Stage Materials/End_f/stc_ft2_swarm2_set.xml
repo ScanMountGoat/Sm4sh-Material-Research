@@ -1,0 +1,616 @@
+<NUDMATERIAL polycount="56">
+  <mesh name="polySurface126866533639_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="0">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533637_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="1">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533636_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="2">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533633_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="3">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533632_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="4">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533638_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="5">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533672_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="6">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533669_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="7">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533630_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="8">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533631_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="9">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533634_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="10">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533640_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="11">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533630_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="12">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533643_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="13">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533646_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="14">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533647_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="15">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533648_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="16">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533649_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="17">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533650_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="18">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533646_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="19">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533646_O_OBJ_O_SORTBIASm2000_1">
+    <polygon id="20">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533645_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="21">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface126866533645_O_OBJ_O_SORTBIASm2000_1">
+    <polygon id="22">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533652_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="23">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533656_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="24">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533657_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="25">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:polySurface126866533658_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="26">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_20_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="27">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_8_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="28">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_9_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="29">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_ce12_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="30">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_21_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="31">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_22_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="32">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_23_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="33">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_24_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="34">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_25_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="35">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_va3_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="36">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_26_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="37">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_ce13_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="38">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_ce14_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="39">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_ce15_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="40">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_34_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="41">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_12_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="42">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_13_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="43">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="edge4_12_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="44">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_ce20_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="45">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_35_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="46">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_36_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="47">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_37_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="48">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_38_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="49">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge3_39_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="50">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_va5_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="51">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_ce21_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="52">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_ce22_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="53">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="End_f_Fortress_2nd_sato:edge4_ce23_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="54">
+      <material flags="a2041901" srcFactor="5" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="30" cullmode="405" zbuffoff="0">
+        <texture hash="20000072" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 -1 </param>
+        <param name="NU_angleFadeParams">0.0128 0.1154 0 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">d47cc537 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="polySurface12686653362277_O_OBJ_O_SORTBIASm2000_">
+    <polygon id="55">
+      <material flags="a2001001" srcFactor="1" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="200000d6" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">3d43d4ac 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

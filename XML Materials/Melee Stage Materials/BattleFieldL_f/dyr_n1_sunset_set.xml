@@ -1,0 +1,11 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="sun_O_NOCASTSHADOW1_O_OBJ_O_HIR">
+    <polygon id="0">
+      <material flags="b0201000" srcFactor="5" dstFactor="2" AlphaFunc="4" AlphaTest="2" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000009c" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effColorGain">1 1 1 0 </param>
+        <param name="NU_materialHash">cdab297d 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

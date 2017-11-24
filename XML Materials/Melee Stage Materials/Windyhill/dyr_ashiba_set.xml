@@ -1,0 +1,16 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="ashiba">
+    <polygon id="0">
+      <material flags="a4031041" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="2000004a" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fogParams">0 15000 0 0.8 </param>
+        <param name="NU_fresnelColor">1 0.7240833 0.527 0.6 </param>
+        <param name="NU_fresnelParams">3 0 0 0 </param>
+        <param name="NU_fogColor">1 1 1 0 </param>
+        <param name="NU_diffuseColor">1 1 1 1 </param>
+        <param name="NU_materialHash">7c458a1a 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>
