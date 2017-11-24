@@ -1,0 +1,31 @@
+<NUDMATERIAL polycount="3">
+  <mesh name="Whip_VIS_O_OBJ_NSC">
+    <polygon id="0">
+      <material flags="d2101101" srcFactor="5" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="40285009" wrapmodeS="1" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_materialHash">5c33bb5b 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="Cylinder_VIS_O_OBJ_NSC">
+    <polygon id="1">
+      <material flags="d2141101" srcFactor="5" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="4028500a" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_angleFadeParams">0 0.5 0 0 </param>
+        <param name="NU_materialHash">4f542979 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="2">
+      <material flags="d2101101" srcFactor="5" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="40285004" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_materialHash">1a063c48 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

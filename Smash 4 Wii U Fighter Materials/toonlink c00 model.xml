@@ -1,0 +1,21 @@
+<NUDMATERIAL polycount="1">
+  <mesh name="gamemodel">
+    <polygon id="0">
+      <material flags="9a011063" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="40299000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="40299001" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fresnelColor">3 3 3 1 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_specularColor">1.307692 1.307692 1.307692 1 </param>
+        <param name="NU_aoMinGain">0.2 0.2 0.2 0 </param>
+        <param name="NU_lightMapColorOffset">0 0 0 0 </param>
+        <param name="NU_specularParams">0 0.64 0 0 </param>
+        <param name="NU_fresnelParams">5 0 0 0 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">69a5736a 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

@@ -1,0 +1,158 @@
+<NUDMATERIAL polycount="9">
+  <mesh name="Mii_Fighter_biker">
+    <polygon id="0">
+      <material flags="9a011063" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="4014283b" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="4014283c" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fresnelColor">1 1 1 0.5 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_specularColor">1.5 1.5 1.5 2 </param>
+        <param name="NU_aoMinGain">0.295 0.295 0.295 0.5 </param>
+        <param name="NU_lightMapColorOffset">0.5 0.5 0.5 0 </param>
+        <param name="NU_specularParams">0 40 1 0 </param>
+        <param name="NU_fresnelParams">1 0 0 0 </param>
+        <param name="NU_alphaBlendParams">1 0 0 0 </param>
+        <param name="NU_materialHash">feb978b0 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="1">
+      <material flags="da019063" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="4014283b" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="4014283c" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fresnelColor">1.2 1.2 1.2 0.5 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_specularColor">1 1 1 1.5 </param>
+        <param name="NU_aoMinGain">0.295 0.295 0.295 0.5 </param>
+        <param name="NU_lightMapColorOffset">0.5 0.5 0.5 0 </param>
+        <param name="NU_specularParams">0 15 1 0 </param>
+        <param name="NU_fresnelParams">1 0 0 0 </param>
+        <param name="NU_characterColor">0.6282051 0 0 0 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">7901dd3 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="2">
+      <material flags="9601106b" srcFactor="1" dstFactor="1" AlphaFunc="6" AlphaTest="2" RefAlpha="32" cullmode="405" zbuffoff="0">
+        <texture hash="4014283d" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10101000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="4014283e" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fresnelColor">1 1 1 1 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_reflectionColor">10 8.25 5 1 </param>
+        <param name="NU_aoMinGain">0.1 0.085 0 0 </param>
+        <param name="NU_lightMapColorOffset">0.4358974 0.334188 0 0 </param>
+        <param name="NU_fresnelParams">10 0 0 0 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">985ec92c 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="3">
+      <material flags="9601106b" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="4014283b" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10101000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="4014283c" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fresnelColor">1 1 1 1 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_reflectionColor">10 8.333334 5 1 </param>
+        <param name="NU_aoMinGain">0.1 0.085 0 0 </param>
+        <param name="NU_lightMapColorOffset">0.4358974 0.334188 0 0 </param>
+        <param name="NU_fresnelParams">10 0 0 0 </param>
+        <param name="NU_alphaBlendParams">1 0 0 0 </param>
+        <param name="NU_materialHash">8cf7071 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="4">
+      <material flags="9a011063" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="4014283b" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="4014283c" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fresnelColor">1 1 1 1.5 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_specularColor">1.5 1.435 1.35 1.5 </param>
+        <param name="NU_aoMinGain">0.235 0.2212917 0.2115 0.3 </param>
+        <param name="NU_lightMapColorOffset">1 1 1 0 </param>
+        <param name="NU_specularParams">0 35 1 0 </param>
+        <param name="NU_fresnelParams">0.5 0 0 0 </param>
+        <param name="NU_alphaBlendParams">1 0 0 0 </param>
+        <param name="NU_materialHash">a9362ed2 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="5">
+      <material flags="9601106b" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="4014283b" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10101000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="4014283c" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fresnelColor">1.2 1.5 1.48 1 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_reflectionColor">3.6 4 3.973333 1 </param>
+        <param name="NU_aoMinGain">0 0 0 0.2 </param>
+        <param name="NU_lightMapColorOffset">0.525 0.68625 0.75 0 </param>
+        <param name="NU_fresnelParams">3 0 0 0 </param>
+        <param name="NU_alphaBlendParams">1 0 0 0 </param>
+        <param name="NU_materialHash">22936f30 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="6">
+      <material flags="9601106b" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="4014283b" wrapmodeS="1" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10101000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="4014283c" wrapmodeS="1" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="1" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fresnelColor">1.2 1.5 1.48 1 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_reflectionColor">7.2 8 7.946667 1 </param>
+        <param name="NU_aoMinGain">0 0 0 0.3 </param>
+        <param name="NU_lightMapColorOffset">0 0 0 0 </param>
+        <param name="NU_fresnelParams">3 0 0 0 </param>
+        <param name="NU_alphaBlendParams">1 0 0 0 </param>
+        <param name="NU_materialHash">47da5c8c 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="7">
+      <material flags="9601106b" srcFactor="1" dstFactor="1" AlphaFunc="6" AlphaTest="2" RefAlpha="128" cullmode="405" zbuffoff="0">
+        <texture hash="4014283f" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10101000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="40142840" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fresnelColor">1.923077 1.923077 1.923077 1 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_reflectionColor">3.6 4 3.973333 1 </param>
+        <param name="NU_aoMinGain">0 0 0 0 </param>
+        <param name="NU_lightMapColorOffset">0.525 0.68625 0.75 0 </param>
+        <param name="NU_fresnelParams">3 0 0 0 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">a6da92dc 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="8">
+      <material flags="9a011063" srcFactor="0" dstFactor="0" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="4014283b" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="4014283c" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <texture hash="10080000" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="2" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_fresnelColor">1.5 1.5 1.5 0.5 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_specularColor">2 2 2 1.25 </param>
+        <param name="NU_aoMinGain">0.3 0.2775 0.255 0.25 </param>
+        <param name="NU_lightMapColorOffset">1.5 1.5 1.5 0 </param>
+        <param name="NU_specularParams">0 30 1 0 </param>
+        <param name="NU_fresnelParams">2 0 0 0 </param>
+        <param name="NU_alphaBlendParams">1 0 0 0 </param>
+        <param name="NU_materialHash">9524a604 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

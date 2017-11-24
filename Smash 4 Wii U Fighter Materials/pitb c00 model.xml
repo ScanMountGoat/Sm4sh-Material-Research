@@ -1,0 +1,18 @@
+<NUDMATERIAL polycount="2">
+  <mesh name="ArrowM8_O_OBJ_O_SORTEACHNODE">
+    <polygon id="0">
+      <material flags="b0201000" srcFactor="5" dstFactor="2" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="0" zbuffoff="0">
+        <texture hash="40314804" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effColorGain">1 1 1 1 </param>
+        <param name="NU_materialHash">8de576cd 0 0 0 </param>
+      </material>
+    </polygon>
+    <polygon id="1">
+      <material flags="b0201000" srcFactor="5" dstFactor="1" AlphaFunc="0" AlphaTest="0" RefAlpha="0" cullmode="0" zbuffoff="0">
+        <texture hash="40314804" wrapmodeS="3" wrapmodeT="3" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_effColorGain">1 1 1 1 </param>
+        <param name="NU_materialHash">c6bb4678 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>

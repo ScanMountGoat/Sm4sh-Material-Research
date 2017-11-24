@@ -1,0 +1,46 @@
+<NUDMATERIAL polycount="4">
+  <mesh name="L_hane_in_omote_N_O_OBJ_O_SORTEACHNODEShape">
+    <polygon id="0">
+      <material flags="92101001" srcFactor="1" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="40195000" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">23f4fd26 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="L_hane_in_ura_N_O_OBJ_O_SORTEACHNODEShape">
+    <polygon id="1">
+      <material flags="92101001" srcFactor="1" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="40195000" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">23f4fd26 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="R_hane_in_omote_N_O_OBJ_O_SORTEACHNODEShape">
+    <polygon id="2">
+      <material flags="92101001" srcFactor="1" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="40195000" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">23f4fd26 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+  <mesh name="R_hane_in_ura_N_O_OBJ_O_SORTEACHNODEShape">
+    <polygon id="3">
+      <material flags="92101001" srcFactor="1" dstFactor="1" AlphaFunc="4" AlphaTest="2" RefAlpha="0" cullmode="405" zbuffoff="0">
+        <texture hash="40195000" wrapmodeS="1" wrapmodeT="1" minfilter="3" magfilter="2" mipdetail="6" />
+        <param name="NU_colorSamplerUV">1 1 0 0 </param>
+        <param name="NU_blinkColor">0 0 0 0 </param>
+        <param name="NU_alphaBlendParams">0 0 0 0 </param>
+        <param name="NU_materialHash">23f4fd26 0 0 0 </param>
+      </material>
+    </polygon>
+  </mesh>
+</NUDMATERIAL>
