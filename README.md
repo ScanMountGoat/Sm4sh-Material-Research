@@ -2,7 +2,7 @@
 A collection of random notes, tools, and data for understanding NUD materials in Smash 4 for Wii U.
 
 ## XML Materials
-This folder contains material XML files exported from Smash Forge for many of the models from Smash 4. Github supports syntax highlighting for XML, so the files can be be easily viewed in a browser.
+This folder contains material XML files exported from Smash Forge for many of the models from Smash 4. The 7zip file contains the materials for all fighter models, trophy models, and stage models in the melee folder. 
 
 ## Find String
 A basic command line application for printing the file paths of all files that contain a particular string in the given directory and subdirectories. This is useful for seeing what types of models use a particular material property and how often it is used.
