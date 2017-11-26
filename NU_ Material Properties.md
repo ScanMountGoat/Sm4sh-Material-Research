@@ -108,6 +108,21 @@ Forge's NUD rendering.
     * *Unused*
     * *Unused*
     * *Unused*
+* NU_normalParams
+    * Normal Map Intensity
+    * *Unused*
+    * DuDv Intensity
+    * *Unused*
+* NU_zOffset
+    * Z Offset
+    * *Unused*
+    * *Unused*
+    * *Unused*
+* NU_angleFadeParams
+    * Blend Amount at 0 Degrees
+    * Blend Amount at 90 Degrees
+    * *Unused*
+    * *Unused*
 
 # Partially Researched
 The material properties in this list have unresearched params, or how the
@@ -115,11 +130,6 @@ different params work is not well understood. Forge will render most of these
 values.  
 *Unused*: the in game value is always 0.
 
-* NU_normalParams
-    * Normal Map Intensity
-    * *Unused*
-    * DuDv Intensity
-    * *Unused*
 * NU_fresnelParams
     * Exponent
     * ???
@@ -129,11 +139,6 @@ values.
     * ???
     * Exponent
     * ???
-    * *Unused*
-* NU_angleFadeParams
-    * Blend Amount at 0 Degrees
-    * Blend Amount at 90 Degrees
-    * *Unused*
     * *Unused*
 * NU_alphaBlendParams
     * Alpha Offset
@@ -145,16 +150,6 @@ values.
     * green
     * Blue
     * ???
-* NU_zOffset
-    * Z Offset
-    * *Unused*
-    * *Unused*
-    * *Unused*
-* NU_blinkColor
-    * *Unused*
-    * *Unused*    
-    * *Unused*
-    * *Unused*
 * NU_dualNormalScrollParams
     * ???
     * ???
@@ -162,6 +157,11 @@ values.
     * ???
 
 # Not Researched
+* NU_blinkColor
+    * *Unused*
+    * *Unused*    
+    * *Unused*
+    * *Unused*
 * NU_effRotUV
 * NU_effScaleUV
     * ???
@@ -174,6 +174,10 @@ values.
     * *Unused*
     * *Unused*
 * NU_effMaxUV
+    * ???
+    * ???
+    * ???
+    * ???
 * NU_effOffsetUV
     * ???
     * ???
@@ -200,6 +204,10 @@ values.
     * *Unused*
     * *Unused*
 * NU_effYGradParam
+    * *Unused*
+    * ???    
+    * *Unused*
+    * *Unused*
 * NU_effYGradColorBottom
     * ???
     * ???

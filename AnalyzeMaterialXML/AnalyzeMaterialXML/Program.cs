@@ -60,6 +60,7 @@ namespace AnalyzeMaterialXML
             foreach (MaterialData material in materials)
             {
                 bool containsSearchProperty = material.materialProperties.ContainsKey(materialProperty);
+                //containsSearchProperty = (material.getFlags() & 0xF0000000) == 0xE0000000;
 
                 if (containsSearchProperty)
                 {
@@ -68,9 +69,7 @@ namespace AnalyzeMaterialXML
 
                     PrintMaterialPropertyValues(materialProperty, material);
 
-
-
-                    //Console.Write(" " + material.fileName);
+                    PrintFileName(path, material);
                     Console.WriteLine();
                 }
             }
@@ -82,6 +81,12 @@ namespace AnalyzeMaterialXML
             Console.WriteLine();
             Console.WriteLine("Maximum Values");
             Console.Write("{0,10} {1,10} {2,10} {3,10}", param1Max, param2Max, param3Max, param4Max);
+        }
+
+        private static void PrintFileName(string path, MaterialData material)
+        {
+            string newFileName = material.fileName.Replace(path, "");
+            Console.Write(" " + newFileName);
         }
 
         private static void PrintMaterialPropertyValues(string materialProperty, MaterialData material)
