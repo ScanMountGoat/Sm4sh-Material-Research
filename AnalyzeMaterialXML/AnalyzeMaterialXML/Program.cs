@@ -12,6 +12,7 @@ namespace AnalyzeMaterialXML
     class Program
     {
         public static List<MaterialData> materials = new List<MaterialData>();
+        public static List<string> materialProperties = new List<string>();
 
         private static float param1Max = 0;
         private static float param2Max = 0;
@@ -27,6 +28,7 @@ namespace AnalyzeMaterialXML
                 if ((i + 1) % 2 == 0)
                     Console.Write(" ");
             }
+            Console.WriteLine();
         }
 
         static void Main(string[] args)
@@ -57,20 +59,25 @@ namespace AnalyzeMaterialXML
 
 
             uint necessaryFlags = 0xFFFFFFFF;
+            int occurrences = 0;
             foreach (MaterialData material in materials)
             {
                 bool containsSearchProperty = material.materialProperties.ContainsKey(materialProperty);
-                //containsSearchProperty = (material.getFlags() & 0xF0000000) == 0xE0000000;
+                containsSearchProperty = containsSearchProperty && material.normalmap;
 
                 if (containsSearchProperty)
                 {
-                    //PrintFlags(material.getFlags());
-                    necessaryFlags = necessaryFlags & material.getFlags();
+                    PrintFlags(material.getFlags());
+                    //PrintFlags(necessaryFlags);
 
+                    necessaryFlags = necessaryFlags & material.getFlags();
                     PrintMaterialPropertyValues(materialProperty, material);
+                    //PrintTextureCount(material);
 
                     PrintFileName(path, material);
                     Console.WriteLine();
+
+                    occurrences += 1;
                 }
             }
 
@@ -78,15 +85,24 @@ namespace AnalyzeMaterialXML
             Console.WriteLine(materialProperty + " flags:");
             PrintFlags(necessaryFlags);
 
-            Console.WriteLine();
+            /*Console.WriteLine();
             Console.WriteLine("Maximum Values");
-            Console.Write("{0,10} {1,10} {2,10} {3,10}", param1Max, param2Max, param3Max, param4Max);
+            Console.WriteLine("{0,-10} {1,-10} {2,-10} {3,-10}", param1Max, param2Max, param3Max, param4Max);*/
+
+            Console.WriteLine(occurrences + " occurrence(s) found.");
+        }
+
+        private static void PrintTextureCount(MaterialData material)
+        {
+            Console.WriteLine();
+            Console.WriteLine(String.Format("Expected {0} textures but found {1}",
+                material.expectedTextureCount, material.textureCount));
         }
 
         private static void PrintFileName(string path, MaterialData material)
         {
             string newFileName = material.fileName.Replace(path, "");
-            Console.Write(" " + newFileName);
+            Console.WriteLine(newFileName);
         }
 
         private static void PrintMaterialPropertyValues(string materialProperty, MaterialData material)
@@ -100,7 +116,7 @@ namespace AnalyzeMaterialXML
                 param3Max = Math.Max(param3Max, values[2]);
                 param4Max = Math.Max(param4Max, values[3]);
 
-                Console.Write("{0,19} {1,10} {2,10} {3,10}", values[0], values[1], values[2], values[3]);
+                Console.WriteLine("{0,-10} {1,-10} {2,-10} {3,-10}", values[0], values[1], values[2], values[3]);
             }
         }
     }

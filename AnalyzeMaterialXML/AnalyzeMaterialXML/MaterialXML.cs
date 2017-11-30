@@ -45,6 +45,7 @@ namespace AnalyzeMaterialXML
                                         }
                                     }
 
+  
                                     foreach (XmlNode materialChildNode in materialNode.ChildNodes)
                                     {
                                         if (materialChildNode.Name.Equals("param"))
@@ -85,6 +86,14 @@ namespace AnalyzeMaterialXML
 
                                             if (name != "" && v.Count == 4)
                                                 matData.materialProperties.Add(name, v.ToArray());
+
+                                            if (!Program.materialProperties.Contains(name))
+                                                Program.materialProperties.Add(name);
+                                        }
+
+                                        if (materialChildNode.Name.Equals("texture"))
+                                        {
+                                            matData.textureCount += 1;
                                         }
                                     }
                                 }

@@ -33,8 +33,11 @@ namespace AnalyzeMaterialXML
         public bool diffuse2;
         public bool diffuse3;
         public bool ramp;
+        public bool shadow;
         public bool dummyramp;
         public bool normalmap;
+        public int textureCount = 0;
+        public int expectedTextureCount = 0;
 
 
         public Dictionary<string, float[]> materialProperties = new Dictionary<string, float[]>();
@@ -48,10 +51,14 @@ namespace AnalyzeMaterialXML
         {
             flags = newFlags;
             testFlags();
+            calculateTextureCount();
         }
 
         public void testFlags()
         {
+            shadow = (flags & (int)TextureFlags.Shadow) > 0;
+
+            dummyramp = (flags & (int)TextureFlags.DummyRamp) > 0;
             spheremap = (flags & (int)TextureFlags.SphereMap) > 0;
 
             aomap = (flags & (int)TextureFlags.StageAOMap) > 0 && !dummyramp;
@@ -66,6 +73,30 @@ namespace AnalyzeMaterialXML
                 && dummyramp || diffuse3;
 
             normalmap = (flags & (int)TextureFlags.NormalMap) > 0;
+        }
+
+        public void calculateTextureCount()
+        {
+            if (diffuse)
+                expectedTextureCount += 1;
+            if (spheremap)
+                expectedTextureCount += 1;
+            if (diffuse2)
+                expectedTextureCount += 1;
+            if (diffuse3)
+                expectedTextureCount += 1;
+            if (stagemap)
+                expectedTextureCount += 1;
+            if (cubemap)
+                expectedTextureCount += 1;
+            if (aomap)
+                expectedTextureCount += 1;
+            if (normalmap)
+                expectedTextureCount += 1;
+            if (ramp)
+                expectedTextureCount += 1;
+            if (dummyramp)
+                expectedTextureCount += 1;
         }
     }
 }
