@@ -8,7 +8,7 @@ using System.Globalization;
 
 namespace AnalyzeMaterialXML
 {
-    class MaterialData
+    class Material
     {
         public enum TextureFlags
         {
@@ -38,6 +38,9 @@ namespace AnalyzeMaterialXML
         public bool normalmap;
         public int textureCount = 0;
         public int expectedTextureCount = 0;
+
+        public int srcFactor;
+        public int dstFactor;
 
 
         public Dictionary<string, float[]> materialProperties = new Dictionary<string, float[]>();

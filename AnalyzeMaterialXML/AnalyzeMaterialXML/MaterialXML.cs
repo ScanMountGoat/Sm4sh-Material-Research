@@ -29,9 +29,9 @@ namespace AnalyzeMaterialXML
                             {
                                 if (materialNode.Name.Equals("material"))
                                 {
-                                    MaterialData matData = new MaterialData();
-                                    Program.materials.Add(matData);
-                                    matData.fileName = fileName;
+                                    Material material = new Material();
+                                    Program.materials.Add(material);
+                                    material.fileName = fileName;
 
                                     foreach (XmlAttribute attribute in materialNode.Attributes)
                                     {
@@ -40,9 +40,28 @@ namespace AnalyzeMaterialXML
                                             case "flags":
                                                 uint flags = 0;
                                                 uint.TryParse(attribute.Value, NumberStyles.HexNumber, null, out flags);
-                                                matData.setFlags(flags);
+                                                material.setFlags(flags);
+                                                break;
+                                            case "srcFactor":
+                                                int srcFactor = 0;
+                                                int.TryParse(attribute.Value, out srcFactor);
+                                                material.srcFactor = srcFactor;
+                                                break;
+                                            case "dstFactor":
+                                                int dstFactor = 0;
+                                                int.TryParse(attribute.Value, out dstFactor);
+                                                material.dstFactor = dstFactor;
                                                 break;
                                         }
+
+                                        if (!Program.flagsValues.Contains(material.getFlags()))
+                                            Program.flagsValues.Add(material.getFlags());
+
+                                        // list of unique values
+                                        if (!Program.srcFactors.Contains(material.srcFactor))
+                                            Program.srcFactors.Add(material.srcFactor);
+                                        if (!Program.dstFactors.Contains(material.dstFactor))
+                                            Program.dstFactors.Add(material.dstFactor);
                                     }
 
   
@@ -85,7 +104,7 @@ namespace AnalyzeMaterialXML
                                             }
 
                                             if (name != "" && v.Count == 4)
-                                                matData.materialProperties.Add(name, v.ToArray());
+                                                material.materialProperties.Add(name, v.ToArray());
 
                                             if (!Program.materialProperties.Contains(name))
                                                 Program.materialProperties.Add(name);
@@ -93,7 +112,7 @@ namespace AnalyzeMaterialXML
 
                                         if (materialChildNode.Name.Equals("texture"))
                                         {
-                                            matData.textureCount += 1;
+                                            material.textureCount += 1;
                                         }
                                     }
                                 }

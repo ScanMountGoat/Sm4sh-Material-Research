@@ -11,8 +11,11 @@ namespace AnalyzeMaterialXML
 {
     class Program
     {
-        public static List<MaterialData> materials = new List<MaterialData>();
+        public static List<Material> materials = new List<Material>();
         public static List<string> materialProperties = new List<string>();
+        public static List<int> srcFactors = new List<int>();
+        public static List<int> dstFactors = new List<int>();
+        public static List<uint> flagsValues = new List<uint>();
 
         private static float param1Max = 0;
         private static float param2Max = 0;
@@ -60,22 +63,27 @@ namespace AnalyzeMaterialXML
 
             uint necessaryFlags = 0xFFFFFFFF;
             int occurrences = 0;
-            foreach (MaterialData material in materials)
+            foreach (Material material in materials)
             {
                 bool containsSearchProperty = material.materialProperties.ContainsKey(materialProperty);
-                containsSearchProperty = containsSearchProperty && material.normalmap;
+                containsSearchProperty = material.expectedTextureCount != material.textureCount;
+                containsSearchProperty = containsSearchProperty && !((material.getFlags() & 0xF0000000) == 0xB0000000);
+                containsSearchProperty = true;
 
                 if (containsSearchProperty)
                 {
-                    PrintFlags(material.getFlags());
+                    //PrintFlags(material.getFlags());
                     //PrintFlags(necessaryFlags);
 
                     necessaryFlags = necessaryFlags & material.getFlags();
-                    PrintMaterialPropertyValues(materialProperty, material);
+                    //PrintMaterialPropertyValues(materialProperty, material);
                     //PrintTextureCount(material);
+                    //Console.WriteLine("Expected " + material.expectedTextureCount + " texture(s) but found " + material.textureCount);
 
-                    PrintFileName(path, material);
-                    Console.WriteLine();
+                    //Console.WriteLine("srcFactor: " + material.srcFactor);
+                    //Console.WriteLine("dstFactor: " + material.dstFactor);
+                    //PrintFileName(path, material);
+                    //Console.WriteLine();
 
                     occurrences += 1;
                 }
@@ -88,24 +96,25 @@ namespace AnalyzeMaterialXML
             /*Console.WriteLine();
             Console.WriteLine("Maximum Values");
             Console.WriteLine("{0,-10} {1,-10} {2,-10} {3,-10}", param1Max, param2Max, param3Max, param4Max);*/
-
-            Console.WriteLine(occurrences + " occurrence(s) found.");
+            flagsValues.Sort();
+            foreach (uint flag in flagsValues)
+                Console.WriteLine(flag.ToString("X"));
         }
 
-        private static void PrintTextureCount(MaterialData material)
+        private static void PrintTextureCount(Material material)
         {
             Console.WriteLine();
             Console.WriteLine(String.Format("Expected {0} textures but found {1}",
                 material.expectedTextureCount, material.textureCount));
         }
 
-        private static void PrintFileName(string path, MaterialData material)
+        private static void PrintFileName(string path, Material material)
         {
             string newFileName = material.fileName.Replace(path, "");
             Console.WriteLine(newFileName);
         }
 
-        private static void PrintMaterialPropertyValues(string materialProperty, MaterialData material)
+        private static void PrintMaterialPropertyValues(string materialProperty, Material material)
         {
             if (material.materialProperties.ContainsKey(materialProperty))
             {
