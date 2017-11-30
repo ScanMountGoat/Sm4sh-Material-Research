@@ -96,9 +96,6 @@ namespace AnalyzeMaterialXML
             /*Console.WriteLine();
             Console.WriteLine("Maximum Values");
             Console.WriteLine("{0,-10} {1,-10} {2,-10} {3,-10}", param1Max, param2Max, param3Max, param4Max);*/
-            flagsValues.Sort();
-            foreach (uint flag in flagsValues)
-                Console.WriteLine(flag.ToString("X"));
         }
 
         private static void PrintTextureCount(Material material)
