@@ -17,7 +17,7 @@
 
 ## Lighting
 | Hex | Vertex Color | colorGain/Offset | Specular | Stage Lighting |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 0 | ??? | no  |     | no  |
 | 2 | ??? | no  |     | no  |
 | 3 | ??? | no  |     | no  |
