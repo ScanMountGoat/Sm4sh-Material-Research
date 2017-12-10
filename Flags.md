@@ -16,19 +16,21 @@
 * F  
 
 ## Lighting
-* 0
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
-* A
-* B
-* C
-* D
-* E
+| Hex | Vertex Color | colorGain/Offset | Specular | Stage Lighting |
+| --- | --- | --- |
+| 0 | ??? | no  |     | no  |
+| 2 | ??? | no  |     | no  |
+| 3 | ??? | no  |     | no  |
+| 4 | ??? | no  |     | yes |
+| 5 | ??? | no  |     |     |
+| 6 | ??? | no  |     | yes |
+| 7 | ??? | no  |     |     |
+| 8 | ??? | no  | yes |     |
+| A | ??? | no  | yes |     |
+| B | ??? | no  |     |     |
+| C | ??? | yes | yes |     |
+| D | ??? | no  |     |     |
+| E | ??? | no  |     |     |
 
 ## Byte 2
 * 00
@@ -136,7 +138,7 @@
 | 0D | diffuse, cube, diffuse/ao     |        |
 | 11 | diffuse, sphere     |        |
 | 21 | diffuse, dummy ramp     |        |
-| 23 |      |        |
+| 23 | diffuse, normal, dummy ramp |        |
 | 27 | diffuse, normal, ramp, dummy ramp |        |
 | 2B | diffuse, stage, normal, dummy ramp |        |
 | 40 | none |        |
@@ -148,18 +150,18 @@
 | 4D | diffuse, cube, ao |        |
 | 61 | diffuse dummy ramp |        |
 | 63 | diffuse, normal, dummy ramp | diffuse, diffuse, normal (9AE11163) |
-| 65 |      |        |
+| 65 | diffuse, diffuse2, ramp, dummy ramp     |        |
 | 67 | diffuse, normal, ramp, dummy ramp | diffuse, cube, normal, dummy ramp (a6111067) |
-| 69 |      |        |
-| 6B |      |        |
-| 71 |      |        |
-| 73 |      |        |
-| 75 |      |        |
-| 81 |      |        |
-| 83 |      |        |
-| 85 |      |        |
-| 86 |      |        |
-| 89 |      |        |
+| 69 | diffuse, stage, dummy ramp     |        |
+| 6B | diffuse, stage, normal, dummy ramp |        |
+| 71 | diffuse, sphere, dummy ramp     |        |
+| 73 | diffuse, sphere, normal, dummy ramp |        |
+| 75 | diffuse, sphere, diffuse2, ramp, dummy ramp     |        |
+| 81 | diffuse     |        |
+| 83 | diffuse, normal |        |
+| 85 | diffuse, cube |        |
+| 86 | cube, normal      |        |
+| 89 | diffuse, diffuse/ao |        |
 | C1 |      |        |
 | C5 |      |        |
 | E1 |      |        |
