@@ -124,45 +124,47 @@
 * 9D
 
 ## Byte 4
-* 00
-* 01
-* 03
-* 05
-* 06
-* 07
-* 09
-* 0D
-* 11
-* 21
-* 23
-* 27
-* 2B
-* 40
-* 41
-* 43
-* 45
-* 47
-* 49
-* 4D
-* 61
-* 63
-* 65
-* 67
-* 69
-* 6B
-* 71
-* 73
-* 75
-* 81
-* 83
-* 85
-* 86
-* 89
-* C1
-* C5
-* E1
-* E3
-* E7
+| Hex | Textures | Weird Textures |
+| --- | ---- | ---|
+| 00 | none    |  diffuse (effect material) |
+| 01 | diffuse     |        |
+| 03 | diffuse, normal     |        |
+| 05 | diffuse, cube     |        |
+| 06 | cube, normal     |        |
+| 07 | diffuse, cube, normal     |        |
+| 09 | diffuse, diffuse/ao     |        |
+| 0D | diffuse, cube, diffuse/ao     |        |
+| 11 | diffuse, sphere     |        |
+| 21 | diffuse, dummy ramp     |        |
+| 23 |      |        |
+| 27 | diffuse, normal, ramp, dummy ramp |        |
+| 2B | diffuse, stage, normal, dummy ramp |        |
+| 40 | none |        |
+| 41 | diffuse     |        |
+| 43 | diffuse, normal     |        |
+| 45 | diffuse, cube     |        |
+| 47 | diffuse, cube, normal     |        |
+| 49 | diffuse, diffuse/ao     |        |
+| 4D | diffuse, cube, ao |        |
+| 61 | diffuse dummy ramp |        |
+| 63 | diffuse, normal, dummy ramp | diffuse, diffuse, normal (9AE11163) |
+| 65 |      |        |
+| 67 | diffuse, normal, ramp, dummy ramp | diffuse, cube, normal, dummy ramp (a6111067) |
+| 69 |      |        |
+| 6B |      |        |
+| 71 |      |        |
+| 73 |      |        |
+| 75 |      |        |
+| 81 |      |        |
+| 83 |      |        |
+| 85 |      |        |
+| 86 |      |        |
+| 89 |      |        |
+| C1 |      |        |
+| C5 |      |        |
+| E1 |      |        |
+| E3 |      |        |
+| E7 |      |        |
 
 | Texture | 4th Byte |
 | ---- | --- |
