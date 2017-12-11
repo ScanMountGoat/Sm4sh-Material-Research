@@ -16,21 +16,22 @@
 * F  
 
 ## Lighting
-| Hex | Vertex Color | colorGain/Offset | Specular | Stage Lighting |
-| --- | --- | --- | --- | --- |
-| 0 | ??? | no  |     | no  |
-| 2 | ??? | no  |     | no  |
-| 3 | ??? | no  |     | no  |
-| 4 | ??? | no  |     | yes |
-| 5 | ??? | no  |     |     |
-| 6 | ??? | no  |     | yes |
-| 7 | ??? | no  |     |     |
-| 8 | ??? | no  | yes |     |
-| A | ??? | no  | yes |     |
-| B | ??? | no  |     |     |
-| C | ??? | yes | yes |     |
-| D | ??? | no  |     |     |
-| E | ??? | no  |     |     |
+
+| Hex | Stage Vertex Color | colorGain/Offset | Specular | Stage Lighting | Char Vertex Color |
+| --- | --- | --- | --- | --- | --- |
+| 0 | no | no  |     | no  | no |
+| 2 | yes | no  |     | no  | no |
+| 3 | no | no  |     | no  | no |
+| 4 | yes | no  |     | yes | yes |
+| 5 | no | no  |     |     | no |
+| 6 | no | no  |     | yes | no |
+| 7 | no | no  |     |     | no |
+| 8 | no | no  | yes |     | no |
+| A | no | no  | yes |     | yes |
+| B | no | no  |     |     | no |
+| C | no | yes | yes |     | yes |
+| D | no | no  |     |     | no |
+| E | no | no  |     |    | no |
 
 ## Byte 2
 * 00
