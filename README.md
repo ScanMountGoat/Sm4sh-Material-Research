@@ -6,6 +6,8 @@ Smash 4 for Wii U.
 This folder contains material XML files exported from Smash Forge for many of
 the models from Smash 4. The 7zip file contains the materials for all fighter
 models, trophy models, and stage models in the melee folder.
+Material Count: ~105,000  
+Model Count: ~6,200  
 
 ## Find String
 A basic command line application for printing the file paths of all files that
