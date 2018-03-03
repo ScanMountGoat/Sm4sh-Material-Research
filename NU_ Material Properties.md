@@ -308,6 +308,26 @@ values.
     * ???
     * ???
     * *Unused*
+* NU_effMTBlendType
+    * ???
+    * ???
+    * *Unused*
+    * *Unused*
+* NU_effMTBlendParam0
+    * *Unused*
+    * ???
+    * ???
+    * ???
+* NU_effMTBlendParam1
+    * *Unused*
+    * ???
+    * ???
+    * ???
+* NU_effMTBlendAlpha
+    * ???
+    * ???
+    * ???
+    * *Unused*
 
 # Unused Properties
 No in game model has been found using these material properties. It's probably
@@ -322,10 +342,6 @@ stage/melee, and model/figure folders. Effect models will be searched later.
 * NU_effRefractParam
 * NU_effCombinerAlpha0
 * NU_effDepthOffset
-* NU_effMTBlendType
-* NU_effMTBlendParam0
-* NU_effMTBlendParam1
-* NU_effMTBlendAlpha
 * NU_effMTBlendParam2
 * NU_effSunShaftParams0
 * NU_effSunShaftParams1
