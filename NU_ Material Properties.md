@@ -178,6 +178,11 @@ Forge's NUD rendering.
     * Blend Amount at 90 Degrees
     * *Unused*
     * *Unused*
+* NU_effUniverseParam
+    * Scale U
+    * *Unused*    
+    * *Unused*
+    * *Unused*
 
 # Partially Researched
 The material properties in this list have unresearched params, or how the
@@ -253,11 +258,6 @@ values.
     * ???
     * ???
     * *Unused*
-* NU_effUniverseParam
-    * ???
-    * *Unused*    
-    * *Unused*
-    * *Unused*
 * NU_effYGradParam
     * *Unused*
     * ???    
@@ -331,8 +331,9 @@ values.
 
 # Unused Properties
 No in game model has been found using these material properties. It's probably
-still possible to use them. The results are from searching the fighter,
-stage/melee, and model/figure folders. Effect models will be searched later.
+still possible to use them, since the values are present in the shaders. The
+results are from searching the fighter, stage/melee, trophy, smash tour, item,
+mii hat, and ui model folders.
 
 * NU_translucentColor
 * NU_testParam0
