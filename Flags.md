@@ -187,7 +187,7 @@ in materials with specific flags, which may or may not be required.
 | NU_colorGain| 9C400061 | 9C611061, FC440061, FC420061, FC420161 |
 | NU_specularColorGain| 9C400061 | 9C611061, FC440061 |
 | NU_postEffectReflection | A6081047 | A6081047 |
-
+| NU_finalColorGain | 
 ### Effect Material Properties
 | Material Property | Bitwise And | Example Flags|
 | ------------- | ------------- | ------- |
