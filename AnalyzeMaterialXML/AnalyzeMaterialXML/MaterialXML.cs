@@ -40,7 +40,7 @@ namespace AnalyzeMaterialXML
                                             case "flags":
                                                 uint flags = 0;
                                                 uint.TryParse(attribute.Value, NumberStyles.HexNumber, null, out flags);
-                                                material.setFlags(flags);
+                                                material.Flags = flags;
                                                 break;
                                             case "srcFactor":
                                                 int srcFactor = 0;
@@ -52,10 +52,15 @@ namespace AnalyzeMaterialXML
                                                 int.TryParse(attribute.Value, out dstFactor);
                                                 material.dstFactor = dstFactor;
                                                 break;
+                                            case "zbuffoff":
+                                                int zBufferOffset = 0;
+                                                int.TryParse(attribute.Value, out zBufferOffset);
+                                                material.zBufferOffset = zBufferOffset;
+                                                break;
                                         }
 
-                                        if (!Program.flagsValues.Contains(material.getFlags()))
-                                            Program.flagsValues.Add(material.getFlags());
+                                        if (!Program.flagsValues.Contains(material.Flags))
+                                            Program.flagsValues.Add(material.Flags);
 
                                         // list of unique values
                                         if (!Program.srcFactors.Contains(material.srcFactor))
@@ -69,45 +74,7 @@ namespace AnalyzeMaterialXML
                                     {
                                         if (materialChildNode.Name.Equals("param"))
                                         {
-                                            string name = "";
-                                            foreach (XmlAttribute attribute in materialChildNode.Attributes)
-                                            {
-                                                switch (attribute.Name)
-                                                {
-                                                    case "name":
-                                                        name = attribute.Value;
-                                                        break;
-                                                }
-                                            }
-                                            string[] values = materialChildNode.InnerText.Split(' ');
-                                            List<float> v = new List<float>();
-                                            float f = 0;
-
-                                            foreach (string stringValue in values)
-                                            {
-                                                if (v.Count < 4)
-                                                {
-                                                    if (name == "NU_materialHash")
-                                                    {
-                                                        int hash;
-                                                        if (int.TryParse(stringValue, NumberStyles.HexNumber, null, out hash))
-                                                        {
-                                                            f = BitConverter.ToSingle(BitConverter.GetBytes(hash), 0);
-                                                            v.Add(f);
-                                                        }
-                                                    }
-                                                    else if (float.TryParse(stringValue, out f))
-                                                        v.Add(f);
-                                                    else
-                                                        v.Add(0.0f);
-                                                }
-                                            }
-
-                                            if (name != "" && v.Count == 4)
-                                                material.materialProperties.Add(name, v.ToArray());
-
-                                            if (!Program.materialProperties.Contains(name))
-                                                Program.materialProperties.Add(name);
+                                            ReadMaterialParam(material, materialChildNode);
                                         }
 
                                         if (materialChildNode.Name.Equals("texture"))
@@ -123,5 +90,47 @@ namespace AnalyzeMaterialXML
             }
         }
 
+        private static void ReadMaterialParam(Material material, XmlNode materialChildNode)
+        {
+            string name = "";
+            foreach (XmlAttribute attribute in materialChildNode.Attributes)
+            {
+                switch (attribute.Name)
+                {
+                    case "name":
+                        name = attribute.Value;
+                        break;
+                }
+            }
+            List<float> v = new List<float>();
+            float f = 0;
+
+            string[] values = materialChildNode.InnerText.Split(' ');
+            foreach (string stringValue in values)
+            {
+                if (v.Count < 4)
+                {
+                    if (name == "NU_materialHash")
+                    {
+                        int hash;
+                        if (int.TryParse(stringValue, NumberStyles.HexNumber, null, out hash))
+                        {
+                            f = BitConverter.ToSingle(BitConverter.GetBytes(hash), 0);
+                            v.Add(f);
+                        }
+                    }
+                    else if (float.TryParse(stringValue, out f))
+                        v.Add(f);
+                    else
+                        v.Add(0.0f);
+                }
+            }
+
+            if (name != "" && v.Count == 4)
+                material.materialProperties.Add(name, v.ToArray());
+
+            if (!Program.materialProperties.Contains(name))
+                Program.materialProperties.Add(name);
+        }
     }
 }

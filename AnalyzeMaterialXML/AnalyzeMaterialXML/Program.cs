@@ -37,53 +37,45 @@ namespace AnalyzeMaterialXML
         static void Main(string[] args)
         {
             string path = "";
-            string materialProperty = "";
-
             if (args.Length > 0)
             {
                 path = args[0];
+                if (!Directory.Exists(path))
+                {
+                    Console.WriteLine("Invalid directory.");
+                    return;
+                }
             }
 
+            ReadMaterialData(path);
+
+            string materialProperty = "";
             if (args.Length > 1)
             {
                 materialProperty = args[1];
             }
 
-            if (Directory.Exists(path))
-            {
-                foreach (string file in Directory.EnumerateFiles(path, "*.*", SearchOption.AllDirectories))
-                {
-                    if (file.EndsWith(".xml"))
-                    {
-                        MaterialXML.MaterialDataFromXML(file);
-                    }
-                }
-            }
-
-
             uint necessaryFlags = 0xFFFFFFFF;
             int occurrences = 0;
             foreach (Material material in materials)
             {
-                bool containsSearchProperty = material.materialProperties.ContainsKey(materialProperty);
-                containsSearchProperty = material.expectedTextureCount != material.textureCount;
-                containsSearchProperty = containsSearchProperty && !((material.getFlags() & 0xF0000000) == 0xB0000000);
-                containsSearchProperty = true;
+                bool containsSearchProperty = material.zBufferOffset != 0;
 
                 if (containsSearchProperty)
                 {
                     //PrintFlags(material.getFlags());
                     //PrintFlags(necessaryFlags);
 
-                    necessaryFlags = necessaryFlags & material.getFlags();
+                    //necessaryFlags = necessaryFlags & material.getFlags();
                     //PrintMaterialPropertyValues(materialProperty, material);
                     //PrintTextureCount(material);
                     //Console.WriteLine("Expected " + material.expectedTextureCount + " texture(s) but found " + material.textureCount);
 
                     //Console.WriteLine("srcFactor: " + material.srcFactor);
                     //Console.WriteLine("dstFactor: " + material.dstFactor);
-                    //PrintFileName(path, material);
-                    //Console.WriteLine();
+                    PrintFileName(path, material);
+                    Console.WriteLine("zBufferOffset: " + material.zBufferOffset);
+                    Console.WriteLine();
 
                     occurrences += 1;
                 }
@@ -96,6 +88,17 @@ namespace AnalyzeMaterialXML
             /*Console.WriteLine();
             Console.WriteLine("Maximum Values");
             Console.WriteLine("{0,-10} {1,-10} {2,-10} {3,-10}", param1Max, param2Max, param3Max, param4Max);*/
+        }
+
+        private static void ReadMaterialData(string path)
+        {
+            foreach (string file in Directory.EnumerateFiles(path, "*.*", SearchOption.AllDirectories))
+            {
+                if (file.EndsWith(".xml"))
+                {
+                    MaterialXML.MaterialDataFromXML(file);
+                }
+            }
         }
 
         private static void PrintTextureCount(Material material)
