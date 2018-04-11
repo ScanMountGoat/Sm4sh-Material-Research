@@ -19,12 +19,6 @@ material property name, for example.
 Usage example:  
 `FindString.exe "Smash XML Materials" SORTBIAS .xml`   
 
-## Analyze Material XML
-A command line application for processing multiple material XML files exported
-from Smash Forge. The XML importing code draws heavily from the code used by
-Smash Forge for converting an XML file to NUD materials. The license for Smash
-Forge can be found
-[here](https://github.com/jam1garner/Smash-Forge/blob/master/License.txt).
-
-Usage example:  
-`AnalyzeMaterialXML.exe "Smash XML Materials" NU_postEffectReflection`  
+## Searching Material XML Files
+[Material-XML](https://github.com/ScanMountGoat/Smash-Material-XML) is a desktop application for
+searching for specific XML materials. See the ReadMe page for details.
