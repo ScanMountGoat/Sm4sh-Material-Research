@@ -22,7 +22,7 @@ sorting meshes are used to ensure the alpha blending renders properly.
 | 0x1 | One Minus Source Alpha | Add |
 | 0x2 | One | Add |
 | 0x3 | One | Reverse Subtract |
-| 0x4 | Spurce Alpha | Add |
+| 0x4 | Source Alpha | Add |
 | 0x5 | Source Alpha | Reverse Sutract |
 | 0x6 | One Minus Destination Alpha | Add |
 | 0x7 | One | Add |
