@@ -1,8 +1,8 @@
 # Material Flags
 ## Flags Overview
 * Byte 1
-    * First Nibble: Material Type
-    * Second Nibble: Lighting
+ * First Nibble: Material Type
+ * Second Nibble: Lighting
 * Byte 2
 * Byte 3
 * Byte 4: Texture Flags & Effects
@@ -19,19 +19,19 @@
 
 | Hex | Stage Vertex Color | colorGain/Offset | Specular | Stage Lighting | Char Vertex Color |
 | --- | --- | --- | --- | --- | --- |
-| 0 | no | no  |     | no  | no |
-| 2 | yes | no  |     | no  | no |
-| 3 | no | no  |     | no  | no |
-| 4 | yes | no  |     | yes | yes |
-| 5 | no | no  |     |     | no |
-| 6 | no | no  |     | yes | no |
-| 7 | no | no  |     |     | no |
-| 8 | no | no  | yes |     | no |
-| A | no | no  | yes |     | yes |
-| B | no | no  |     |     | no |
-| C | no | yes | yes |     | yes |
-| D | no | no  |     |     | no |
-| E | no | no  |     |    | no |
+| 0 | no | no  | | no  | no |
+| 2 | yes | no  | | no  | no |
+| 3 | no | no  | | no  | no |
+| 4 | yes | no  | | yes | yes |
+| 5 | no | no  | | | no |
+| 6 | no | no  | | yes | no |
+| 7 | no | no  | | | no |
+| 8 | no | no  | yes | | no |
+| A | no | no  | yes | | yes |
+| B | no | no  | | | no |
+| C | no | yes | yes | | yes |
+| D | no | no  | | | no |
+| E | no | no  | | | no |
 
 ## Byte 2
 * 00
@@ -127,48 +127,60 @@
 * 9D
 
 ## Byte 4
+The fourth byte controls the type of the material textures. Textures appear to use a set ordering and flag value with a few exceptions.
+
 | Hex | Textures | Weird Textures |
 | --- | ---- | ---|
-| 00 | none    |  diffuse (effect material) |
-| 01 | diffuse     |        |
-| 03 | diffuse, normal     |        |
-| 05 | diffuse, cube     |        |
-| 06 | cube, normal     |        |
-| 07 | diffuse, cube, normal     |        |
-| 09 | diffuse, diffuse/ao     |        |
-| 0D | diffuse, cube, diffuse/ao     |        |
-| 11 | diffuse, sphere     |        |
-| 21 | diffuse, dummy ramp     |        |
-| 23 | diffuse, normal, dummy ramp |        |
-| 27 | diffuse, normal, ramp, dummy ramp |        |
-| 2B | diffuse, stage, normal, dummy ramp |        |
-| 40 | none |        |
-| 41 | diffuse     |        |
-| 43 | diffuse, normal     |        |
-| 45 | diffuse, cube     |        |
-| 47 | diffuse, cube, normal     |        |
-| 49 | diffuse, diffuse/ao     |        |
-| 4D | diffuse, cube, ao |        |
-| 61 | diffuse dummy ramp |        |
+| 00 | none |  diffuse (effect material) |
+| 01 | diffuse | |
+| 03 | diffuse, normal | |
+| 05 | diffuse, cube | |
+| 06 | cube, normal | |
+| 07 | diffuse, cube, normal | |
+| 09 | diffuse, diffuse/ao | |
+| 0D | diffuse, cube, diffuse/ao | |
+| 11 | diffuse, sphere | |
+| 21 | diffuse, dummy ramp | |
+| 23 | diffuse, normal, dummy ramp | |
+| 27 | diffuse, normal, ramp, dummy ramp | |
+| 2B | diffuse, stage, normal, dummy ramp | |
+| 40 | none | |
+| 41 | diffuse | |
+| 43 | diffuse, normal | |
+| 45 | diffuse, cube | |
+| 47 | diffuse, cube, normal | |
+| 49 | diffuse, diffuse/ao | |
+| 4D | diffuse, cube, ao | |
+| 61 | diffuse dummy ramp | |
 | 63 | diffuse, normal, dummy ramp | diffuse, diffuse, normal (9AE11163) |
-| 65 | diffuse, diffuse2, ramp, dummy ramp     |        |
+| 65 | diffuse, diffuse2, ramp, dummy ramp | |
 | 67 | diffuse, normal, ramp, dummy ramp | diffuse, cube, normal, dummy ramp (a6111067) |
-| 69 | diffuse, stage, dummy ramp     |        |
-| 6B | diffuse, stage, normal, dummy ramp |        |
-| 71 | diffuse, sphere, dummy ramp     |        |
-| 73 | diffuse, sphere, normal, dummy ramp |        |
-| 75 | diffuse, sphere, diffuse2, ramp, dummy ramp     |        |
-| 81 | diffuse     |        |
-| 83 | diffuse, normal |        |
-| 85 | diffuse, cube |        |
-| 86 | cube, normal      |        |
-| 89 | diffuse, diffuse/ao |        |
-| C1 |      |        |
-| C5 |      |        |
-| E1 |      |        |
-| E3 |      |        |
-| E7 |      |        |
+| 69 | diffuse, stage, dummy ramp | |
+| 6B | diffuse, stage, normal, dummy ramp | |
+| 71 | diffuse, sphere, dummy ramp | |
+| 73 | diffuse, sphere, normal, dummy ramp | |
+| 75 | diffuse, sphere, diffuse2, ramp, dummy ramp | |
+| 81 | diffuse | |
+| 83 | diffuse, normal | |
+| 85 | diffuse, cube | |
+| 86 | cube, normal  | |
+| 89 | diffuse, diffuse/ao | |
+| C1 | | |
+| C5 | | |
+| E1 | | |
+| E3 | diffuse, normal, dummy ramp |
+| E7 | diffuse, normal, ramp, dummy ramp | |
 
+| Texture | Flag |
+| --- | --- |
+| Glow | 0x80 |
+| Shadow | 0x40 |
+| Dummy Ramp | 0x20 |
+| Sphere Map | 0x10 |
+| Stage AO Map | 0x08 |
+| Ramp or Cube Map | 0x04 |
+| Normal Map | 0x02 |
+| Diffuse Map | 0x01 |
 
 ## Material Properties Flags
 Certain material flags are required to use some material properties. Most
