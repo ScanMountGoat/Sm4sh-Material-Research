@@ -1,4 +1,4 @@
-# Smash Wii U Material Research
+# Smash 4 Wii U Material Research
 Documentation for properties and flags for NUD materials. The markdown files can be viewed directly in the browser.
 
 ## XML Materials
