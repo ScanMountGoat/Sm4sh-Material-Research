@@ -37,22 +37,32 @@ Material properties in the shaders ommit the "NU_" prefix like "aoMinGain" inste
 # Textures
 Shaders reference textures defined in the nud material as well as textures calculated during rendering like shadow maps.
 
-* color2Sampler
 * colorSampler
 * colorSampler2
 * colorSampler3
+* color2Sampler
 * diffuseSampler
 * frameSampler
 * g_PCFTextureSampler
 * g_VSMTextureSampler
 * lightMapSampler
 * multiplicationSampler
-* normal2Sampler
 * normalSampler
+* normal2Sampler
 * reflectionCubeSampler
 * reflectionSampler
 * sampler0
 * Sampler11
+
+## Attributes
+* a_Position
+* a_Normal
+* a_Tangent
+* a_Binormal
+* a_Color
+* a_TexCoord0
+* a_TexCoord1
+* a_TexCoord2
 
 ## Shader IDs
 * 92000161
