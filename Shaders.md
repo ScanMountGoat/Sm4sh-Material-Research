@@ -2,7 +2,7 @@
 Smash 4 nud models reference shaders in texas_cross.nsh using a shader ID starting from 92000161. The shader determines the required material properties, textures, and vertex attributes.
 
 ## Material Properties
-Material properties in the shaders ommit the "NU_" prefix like "aoMinGain" instead of "NU_aoMinGain".
+Material properties from the "MC" uniform buffer in the shaders ommit the "NU_" prefix like "aoMinGain" instead of "NU_aoMinGain".
 
 * alphaBlendParams
 * angleFadeParams
@@ -33,6 +33,22 @@ Material properties in the shaders ommit the "NU_" prefix like "aoMinGain" inste
 * specularColorGain
 * specularParams
 * zOffset
+
+## Effect Properties
+Material properties from the "MC_EFFECT" uniform buffer in the shaders ommit the "NU_" prefix like "angleFadeParams" instead of "NU_angleFadeParams".
+
+* angleFadeParams
+* effColorGain
+* effCombinerAlpha0
+* effCombinerColor0
+* effCombinerColor1
+* effRotUV
+* effScaleUV
+* effSilhouetteColor
+* effTransUV
+* effUniverseParam
+* normalParams
+* normalSamplerAUV
 
 # Textures
 Shaders reference textures defined in the nud material as well as textures calculated during rendering like shadow maps.
