@@ -11,6 +11,7 @@ Material properties from the "MC" uniform buffer in the shaders ommit the "NU_" 
 * colorOffset
 * colorSampler2UV
 * colorSampler3UV
+* colorSampler4UV
 * colorSamplerUV
 * colorStepUV
 * customSoftLightParams
@@ -32,21 +33,37 @@ Material properties from the "MC" uniform buffer in the shaders ommit the "NU_" 
 * specularColor
 * specularColorGain
 * specularParams
+* testParam0
+* testParam1
+* testParam2
+* testParam3
+* translucentColor
 * zOffset
 
 ## Effect Properties
-Material properties from the "MC_EFFECT" uniform buffer in the shaders ommit the "NU_" prefix like "angleFadeParams" instead of "NU_angleFadeParams".
+Material properties from the "MC_EFFECT" uniform buffer in the shaders ommit the "NU_" prefix like "effColorGain" instead of "NU_effColorGain".
 
 * angleFadeParams
 * effColorGain
 * effCombinerAlpha0
 * effCombinerColor0
 * effCombinerColor1
+* effDepthOffset
+* effMTBlendAlpha
+* effMTBlendParam0
+* effMTBlendParam1
+* effMTBlendParam2
+* effRefractParam
 * effRotUV
 * effScaleUV
 * effSilhouetteColor
+* effSunShaftParams0
+* effSunShaftParams1
 * effTransUV
 * effUniverseParam
+* effYGradColorBottom
+* effYGradColorTop
+* effYGradParam
 * normalParams
 * normalSamplerAUV
 
@@ -69,6 +86,8 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * reflectionSampler
 * sampler0
 * Sampler11
+* samplerA
+* samplerB
 
 ## Attributes
 * a_Position
@@ -81,6 +100,9 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * a_TexCoord2
 
 ## Shader IDs
+* 00000000
+* 00020000
+* 24080000
 * 92000161
 * 92001001
 * 92001081
@@ -257,12 +279,14 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * A3C11101
 * A3C11181
 * A3C11901
+* A3C31141
 * A3C41001
 * A3C81105
 * A3CC1105
 * A3D01045
 * A3D11045
 * A3D21105
+* A3D23107
 * A3E01001
 * A3E01081
 * A3E01181
@@ -279,20 +303,26 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * A4010001
 * A4010041
 * A4011001
+* A4011003
+* A4011021
 * A4011041
 * A4011043
 * A4011061
 * A4011101
 * A4011901
+* A4011941
 * A4011981
 * A4015009
 * A4021001
 * A4021041
 * A4031001
 * A4031041
+* A4201001
+* A4211901
 * A4215009
 * A4415009
 * A4415049
+* A4615009
 * A5C01041
 * A5C01081
 * A5C010C1
@@ -300,6 +330,8 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * A5C01181
 * A5C11001
 * A5C11041
+* A5C11901
+* A5C15049
 * A6003307
 * A6003347
 * A6013307
@@ -313,6 +345,7 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * A6101047
 * A61010C5
 * A6111005
+* A6111007
 * A6111045
 * A6111067
 * A6121005
@@ -321,13 +354,19 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * A6131145
 * A61311C5
 * A62B1005
+* A6301005
+* A6301045
 * A6331005
+* A651504D
+* A671500D
 * A693564D
 * A6B0560D
 * A7809945
 * A7C03307
 * A7C91005
 * A7C91905
+* A7D01047
+* A7D31945
 * A8101045
 * AA415049
 * AA415609
@@ -343,23 +382,22 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * B0201100
 * B0202000
 * B0209300
-* B0210000
+* B0209600
 * B0211000
 * B0211100
 * B0221000
 * B0221100
-* B0230000
-* B0230100
 * B0231000
 * B0231100
 * B0240000
+* B0240100
 * B0241000
 * B0241100
-* B0251100
 * B0261100
-* B0271000
-* B0271100
-* B0281100
+* B0281000
+* B0400109
+* B0401109
+* B040110B
 * B0A01001
 * B0C01000
 * B0E01000
@@ -379,6 +417,7 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * D6090069
 * D6091069
 * D609106B
+* D6C1106B
 * D6C1116B
 * D6C90069
 * D6C90169
@@ -393,6 +432,7 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * DA090061
 * DA091061
 * DAC90061
+* DAC90161
 * DAC91061
 * DAC91161
 * E2015C09
@@ -409,6 +449,7 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * E2445C09
 * E2447A03
 * E2581001
+* E2605009
 * E2641001
 * E2647A03
 * E2811001
@@ -419,6 +460,7 @@ Shaders reference textures defined in the nud material as well as textures calcu
 * E4605109
 * E4605509
 * E62A3307
+* E6413A06
 * F664006B
 * F882006B
 * FA220067
