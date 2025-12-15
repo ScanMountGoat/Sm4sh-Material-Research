@@ -67,27 +67,29 @@ Material properties from the "MC_EFFECT" uniform buffer in the shaders ommit the
 * normalParams
 * normalSamplerAUV
 
-# Textures
+## Textures
 Shaders reference textures defined in the nud material as well as textures calculated during rendering like shadow maps.
 
-* colorSampler
-* colorSampler2
-* colorSampler3
-* color2Sampler
-* diffuseSampler
-* frameSampler
-* g_PCFTextureSampler
-* g_VSMTextureSampler
-* lightMapSampler
-* multiplicationSampler
-* normalSampler
-* normal2Sampler
-* reflectionCubeSampler
-* reflectionSampler
-* sampler0
-* Sampler11
-* samplerA
-* samplerB
+| Name | Channels |
+| --- | --- |
+| colorSampler | RGB = diffuse color, A = alpha |
+| colorSampler2 | |
+| colorSampler3 | |
+| color2Sampler | |
+| diffuseSampler | RGB = skin shading diffuse lighting gradient |
+| frameSampler | |
+| g_PCFTextureSampler | |
+| g_VSMTextureSampler | RG = variance shadow map |
+| lightMapSampler | RGB = diffuse lighting gradient |
+| multiplicationSampler | |
+| normalSampler | RGB = tangent space normal map, A = ambient occlusion |
+| normal2Sampler | |
+| reflectionCubeSampler | RGB = specular reflection map |
+| reflectionSampler | |
+| sampler0 | |
+| Sampler11 | |
+| samplerA | |
+| samplerB | |
 
 ## Attributes
 * a_Position
