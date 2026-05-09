@@ -1,48 +1,50 @@
 # Material Properties
 A list of all material properties accessed by in game shader code. Blank columns indicate the channel is never accessed by any in game shader.
 
-| Property Name | Param1 | Param2 | Param3 | Param4 |
-| --- | --- | --- | --- | --- |
-| NU_alphaBlendParams | Alpha Offset | ??? | ??? | ??? |
-| NU_angleFadeParams | Blend Amount at 0 Degrees | Blend Amount at 90 Degrees |  |  |
-| NU_aoMinGain | Red | Green | Blue | AO Mix Factor |
-| NU_blinkColor |  |  |  |  |
-| NU_characterColor |  |  |  |  |
-| NU_colorGain  | Red | Green | Blue |  |
-| NU_colorOffset | Red | Green | Blue |  |
-| NU_colorSampler2UV | Scale U | Scale V | Translate U | Translate V |
-| NU_colorSampler3UV | Scale U | Scale V | Translate U | Translate V |
-| NU_colorSampler4UV | Scale U | Scale V | Translate U | Translate V |
-| NU_colorStepUV | horizontal sprite count | vertical sprite count | frames per sprite | ??? |
-| NU_customSoftLightParams | Ambient Saturation | Darken Ambient | Smooth Amount |  |
-| NU_diffuseColor | Red | Green | Blue | ??? |
-| NU_dualNormalScrollParams | ??? | ??? | ??? | ??? |
-| NU_envDiffuseColor | ??? | ??? | ??? |  |
-| NU_finalColorGain | Red | Green | Blue | Alpha |
-| NU_finalColorGain2 | Red | Green | Blue | Alpha |
-| NU_finalColorGain3 | Red | Green | Blue | Alpha |
-| NU_fogColor | ??? | ??? | ??? | ??? |
-| NU_fogParams | Minimum Distance | Maximum Distance | Minimum Intensity | Maximum Intensity |
-| NU_fresnelColor |   Red | Green | Blue | Color Blend |
-| NU_fresnelParams | Exponent | ??? | ??? | ??? |
-| NU_lightMapColorOffset | ??? | ??? | ??? |  |
-| NU_materialHash | Hash |  |  |  | |
-| NU_normalParams | Normal Map Intensity |  | DuDv Intensity | ??? |
-| NU_normalSamplerAUV | Scale U | Scale V | Translate U | Translate V |
-| NU_normalSamplerBUV | Scale U | Scale V | Translate U | Translate V |
-| NU_reflectionColor |   Red | Green | Blue | Color Blend |
-| NU_reflectionParams | Cubemap Intensity | Sphere Map Param | Anisotropic Width | Anisotropic Height |
-| NU_rotatePivotUV | ??? |  | ??? | ??? |
-| NU_softLightingParams | Ambient Saturation | Darken Ambient | Smooth Amount |  |
-| NU_specularColor | Red | Green | Blue | Color Blend |
-| NU_specularColorGain | Red | Green | Blue | ??? |
-| NU_specularParams |  | Exponent | ??? |  |
-| NU_testParam0 |  |  |  |  |
-| NU_testParam1 |  |  |  |  |
-| NU_testParam2 |  |  |  |  |
-| NU_testParam3 |  |  |  |  |
-| NU_translucentColor |  |  |  |  |
-| NU_zOffset | Z Offset |  |  |  |  |
+The "Default Value" is a value that has no effect or the same effect as not having the parameter defined in the material. This is typically 0.0 for offset values (a + 0.0 = a), 1.0 for scale values (1.0 * a = a), and 1.0 for exponents (a^1.0 = a). The default value for intensities or blend factors for mixing between values may be 0.0 or 1.0 depending on the context.
+
+| Property Name | Default Value | Param1 | Param2 | Param3 | Param4 |
+| --- | --- | --- | --- | --- | --- |
+| NU_alphaBlendParams | | Alpha Offset | ??? | ??? | ??? |
+| NU_angleFadeParams | | Blend Amount at 0 Degrees | Blend Amount at 90 Degrees | | | |
+| NU_aoMinGain | | Red | Green | Blue | AO Mix Factor |
+| NU_blinkColor | | | | | |
+| NU_characterColor | | | | | |
+| NU_colorGain | | Red | Green | Blue | |
+| NU_colorOffset | | Red | Green | Blue | |
+| NU_colorSampler2UV | (1, 1, 0, 0) | Scale U | Scale V | Translate U | Translate V |
+| NU_colorSampler3UV | (1, 1, 0, 0) | Scale U | Scale V | Translate U | Translate V |
+| NU_colorSampler4UV | (1, 1, 0, 0) | Scale U | Scale V | Translate U | Translate V |
+| NU_colorStepUV | | horizontal sprite count | vertical sprite count | frames per sprite | ??? |
+| NU_customSoftLightParams | | Ambient Saturation | Darken Ambient | Smooth Amount | |
+| NU_diffuseColor | | Red | Green | Blue | ??? |
+| NU_dualNormalScrollParams | | ??? | ??? | ??? | ??? |
+| NU_envDiffuseColor | | ??? | ??? | ??? | |
+| NU_finalColorGain | | Red | Green | Blue | Alpha |
+| NU_finalColorGain2 | | Red | Green | Blue | Alpha |
+| NU_finalColorGain3 | | Red | Green | Blue | Alpha |
+| NU_fogColor | | ??? | ??? | ??? | ??? |
+| NU_fogParams | | Minimum Distance | Maximum Distance | Minimum Intensity | Maximum Intensity |
+| NU_fresnelColor | | Red | Green | Blue | Color Blend |
+| NU_fresnelParams | | Exponent | ??? | ??? | ??? |
+| NU_lightMapColorOffset | | ??? | ??? | ??? | |
+| NU_materialHash | | Hash | | | | |
+| NU_normalParams | | Normal Map Intensity | | DuDv Intensity | ??? |
+| NU_normalSamplerAUV | | Scale U | Scale V | Translate U | Translate V |
+| NU_normalSamplerBUV | | Scale U | Scale V | Translate U | Translate V |
+| NU_reflectionColor | (1, 1, 1, 0) | Red | Green | Blue | Color Blend |
+| NU_reflectionParams | | Cubemap Intensity | Sphere Map Param | Anisotropic Width | Anisotropic Height |
+| NU_rotatePivotUV | | ??? | | ??? | ??? |
+| NU_softLightingParams | | Ambient Saturation | Darken Ambient | Smooth Amount | |
+| NU_specularColor | (1, 1, 1, 0) | Red | Green | Blue | Color Blend |
+| NU_specularColorGain | | Red | Green | Blue | ??? |
+| NU_specularParams | | | Exponent | ??? | |
+| NU_testParam0 | | | | | |
+| NU_testParam1 | | | | | |
+| NU_testParam2 | | | | | |
+| NU_testParam3 | | | | | |
+| NU_translucentColor | | | | | |
+| NU_zOffset | (0, 0, 0, 0) | Z Offset | | | | |
 
 # Effect Properties
 A list of all effect material properties accessed by in game shader code. Blank columns indicate the channel is never accessed by any in game shader.
